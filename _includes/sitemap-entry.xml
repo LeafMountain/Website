@@ -1,0 +1,3 @@
+<url>
+    <loc>https://leafmountain.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+</url>

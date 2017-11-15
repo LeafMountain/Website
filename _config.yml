@@ -1,2 +1,3 @@
 baseurl: /Website
 exclude: ['README.md']
+permalink: pretty

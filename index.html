@@ -3,3 +3,14 @@ layout: default
 ---
 
 <p>Alexander Lövbergs amazing portfolio!</p>
+
+<h1>Games</h1>
+
+<ul>
+    {% for game in site.posts %}
+        <li>
+            <a href="{{site.baseurl}}{{game.url}}">{{game.title}}</a>
+            <p>{{game.meta}}</p>
+        </li>
+    {% endfor %}
+</ul>
