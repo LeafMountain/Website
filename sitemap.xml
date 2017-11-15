@@ -6,7 +6,11 @@
     {% for post in site.posts %}
         {% include sitemap-entry.xml entry=post %}
     {% endfor %}
-    
+
+    {% for game in site.games %}
+        {% include sitemap-entry.xml entry=game %}
+    {% endfor %}
+
     {% for page in site.pages %}
         {% if page.layout %}
             {% include sitemap-entry.xml entry=page %}
