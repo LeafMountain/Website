@@ -2,6 +2,6 @@
 layout: game
 title: Cuddlefur
 meta: 3D platformer
-coverImg: 
+coverImg: img/banner.jpg
 category: game
 ---

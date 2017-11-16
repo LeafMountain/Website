@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<p>Alexander Lövbergs amazing portfolio!</p>
+<section class="showcase">
 
-<h1>Games</h1>
+{% for game in site.games %}
+<a href="{{site.baseurl}}{{game.url}}">        
+    <div class="game" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
+            <!-- <img src="{{site.baseurl}}/{{game.coverImg}}" alt="{{game.title}}"> -->
+            <p>{{game.meta}}</p>         
+    </div>
+</a>
 
-<ul>
-    {% for game in site.games %}
-        <li>
-            <a href="{{site.baseurl}}{{game.url}}">{{game.title}}</a>
-            <p>{{game.meta}}</p>
-        </li>
-    {% endfor %}
-</ul>
+{% endfor %}
+
+</section>

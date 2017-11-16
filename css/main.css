@@ -2,4 +2,9 @@
 ---
 
 {% include_relative common.css %}
+{% include_relative showcase.css %}
 {% include_relative game.css %}
+{% include_relative header.css %}
+{% include_relative footer.css %}
+
+

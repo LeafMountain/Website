@@ -2,8 +2,13 @@ html {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #131313;
+    background: #202020;
     color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
 }
 
 a.current {
