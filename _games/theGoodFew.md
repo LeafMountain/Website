@@ -2,6 +2,7 @@
 layout: game
 title: The Good Few
 meta: Turn based
-coverImg: img/banner.jpg
+logo: img/theGoodFewLogo.png
+coverImg: img/theGoodFew.png
 category: game
 ---
