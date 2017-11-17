@@ -5,12 +5,3 @@ html {
     background: #202020;
     color: white;
 }
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-a.current {
-    color: orange;
-}

@@ -5,18 +5,21 @@
     <title>Alexander Lövberg {% if page.title %} | {{page.title}} {% endif %}</title>
     <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
     <meta name="description" content="{{page.meta}}">
+    <link rel="icon" href="{{site.baseurl}}/img/logo.gif">
 </head>
 <body>
+
+    {{content}}
+        
 
 <header>
     {% include header.html %}
 </header>
 
-    {{content}}
 
-<footer>
+<!-- <footer>
     {% include footer.html %}
-</footer>
+</footer> -->
 
 </body>
 </html>

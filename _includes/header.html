@@ -1,8 +1,18 @@
-
-<h1>Alexander Lövberg</h1>
 <nav>
-    <ul>
-        <li><a href="{{site.baseurl}}/index/" class=" {% if page.url == '/index/' %}current{% endif %}">Home</a></li>
-        <li><a href="{{site.baseurl}}/cv/" class=" {% if page.url == '/cv/' %}current{% endif %}">CV</a></li>
-    </ul>
+    {% for game in site.games %}
+    <a href="{{site.baseurl}}{{game.url}}">
+        <div class="card" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
+            <div id="overlay">
+                {% if game.logo %}
+                    <img src="{{site.baseurl}}/{{game.logo}}" alt="{{game.name}} logo">
+                {% else %}
+                    <h2>{{game.title}}</h2>
+                {% endif %}
+
+
+                <!-- <h2>{{game.title}}</h2> -->
+            </div>
+        </div>
+    </a>
+    {% endfor %}
 </nav>
