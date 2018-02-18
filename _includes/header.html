@@ -1,18 +1,14 @@
+<div class="game" style="background-image: url({{site.baseurl}}/img/theGoodFew.png)">
+    <div class="branding">
+        <h1>Alexander Lövberg</h1>
+    </div>
+</div>
+
 <nav>
-    {% for game in site.games %}
-    <a href="{{site.baseurl}}{{game.url}}">
-        <div class="card" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
-            <div id="overlay">
-                {% if game.logo %}
-                    <img src="{{site.baseurl}}/{{game.logo}}" alt="{{game.name}} logo">
-                {% else %}
-                    <h2>{{game.title}}</h2>
-                {% endif %}
-
-
-                <!-- <h2>{{game.title}}</h2> -->
-            </div>
-        </div>
-    </a>
-    {% endfor %}
+    <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>LinkedIn</li>
+        <li>CV</li>
+    </ul>
 </nav>

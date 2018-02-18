@@ -9,17 +9,21 @@
 </head>
 <body>
 
+    <header>
+        <wrapper>
+        {% include header.html %}
+        </wrapper>
+    </header>
+
+    <wrapper>
     {{content}}
-        
+    </wrapper>
 
-<header>
-    {% include header.html %}
-</header>
-
-
-<!-- <footer>
-    {% include footer.html %}
-</footer> -->
+    <footer>
+        <wrapper>
+        {% include footer.html %}
+        </wrapper>
+    </footer>
 
 </body>
 </html>
