@@ -2,22 +2,22 @@
 layout: default
 ---
 
+<div class="wrapper">
+
 <section class="showcase">
 
-        <!-- {% for game in site.games %}
+        {% for game in site.games %}
         <a href="{{site.baseurl}}{{game.url}}">
-            <div class="card" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
+            <div class="rounded card" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
                 <div id="overlay">
-                    {% if game.logo %}
-                        <img src="{{site.baseurl}}/{{game.logo}}" alt="{{game.name}} logo">
-                    {% else %}
-                        <h2>{{game.title}}</h2>
-                    {% endif %}
-    
+                    <h2>{{game.title}}</h2>
+                    <p>{{game.meta}}</p>
                 </div>
             </div>
         </a>
-        {% endfor %} -->
-    
+        {% endfor %}
 
+    
 </section>
+
+</div>

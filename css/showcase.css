@@ -1,45 +1,31 @@
 section.showcase {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
 }
 
-section.showcase div {
-    padding: 0;
-    margin: 0;
-    background: white;
-    overflow: hidden;
-    background-size: cover;
+.card {
+    height: 100vh;
     background-position: center;
-    background: no-repeat center center relative;
-    
-    height: 100%;
-    z-index: -1;
-
-    box-shadow: inset 12px 0 16px 0 rgba(0, 0, 0, 0.24), inset 17px 0 50px 0 rgba(0, 0, 0, 0.19);    
-}
-
-/* Branding */
-
-section.showcase div.branding{
-    display: flex;
-    background: no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
-    background: transparent;
-    font-size: 40px;
-    color: white;
-    /* filter: drop-shadow(16px 16px 20px black); */
-    text-shadow: 16px 16px 30px black;
-
 }
 
-section.showcase div.branding img{
-    float: left;
-    height: 30%;
+.card:hover {
+    /* box-shadow: 10px 10px 5px black; */
+    /* box-shadow: inset 0 0 20px #000000; */
+    width: 500px;
 }
 
-section.showcase div.branding h1{
-    align-self: center;
-    padding-left: 70px;
-    text-transform: uppercase;
+
+section.showcase a {
+    text-decoration: none;
+}
+
+section.showcase #overlay {
+    /* background: #0000009d; */
+    align-self: end;
+}
+
+section.showcase #overlay h2 {
+    text-align: center;
 }

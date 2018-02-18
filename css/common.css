@@ -1,12 +1,33 @@
 * {
+    /* Variables */
+    --main-bg-color: #202020;
+    --secondary-bg-color: #171717;
+    --accent-color: #017e82;
+
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #202020;
-    color: white;
+    box-sizing: border-box;
+    color: white;    
+
 }
 
-wrapper {
-    width: 60%;
+html { 
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Lato', sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+.wrapper {
+    width: 100%;
     margin: auto;
+}
+
+.rounded {
+    /* border-radius: 5px; */
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 100%;
+    }
 }

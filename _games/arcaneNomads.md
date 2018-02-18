@@ -1,7 +1,7 @@
 ---
 layout: game
-title: Project Lumber
+title: 'Arcane Nomads'
 meta: 3D platformer
-coverImg: img/projectLumber.png
+coverImg: img/overwatch.jpg
 category: game
 ---
