@@ -1,8 +1,11 @@
 footer {
+    align-self: end;
+    
     padding: 10px;
     align-self: end;
     color: white;
     background: rgba(0, 0, 0, 0.5);
+
 }
 
 footer ul {

@@ -13,8 +13,6 @@ header h1{
     text-transform: uppercase;
 }
 
-
-
 header #grid {
     display: grid;
     align-items: end;
@@ -22,8 +20,8 @@ header #grid {
 
 header #branding {
     display: grid;
-    grid-template-columns: 1fr 40px 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 1fr 60px 1fr;
+    grid-gap: 10px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -38,7 +36,6 @@ header #branding {
 #title {
     justify-self: start;
     align-self: center;
-    
 }
 
 header #portrait {
@@ -46,14 +43,4 @@ header #portrait {
     width: 100%;
     justify-self: center;
     
-}
-
-/* header .wrapper {
-    width: 60%;
-} */
-
-@media (max-width: 1000px) {
-    /* header .wrapper {
-        width: 100%;
-    } */
 }
