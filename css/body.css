@@ -3,7 +3,7 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 20px;
 
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background-image: url(/img/background.jpg); */
     
     background-size: cover;
