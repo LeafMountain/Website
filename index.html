@@ -9,11 +9,7 @@ layout: default
 
             <div class="card rounded" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
 
-                <!-- {% if game.logo %} -->
-                    <!-- <img id="logo" src="{{site.baseurl}}{{game.logo}}" alt="Logo"> -->
-                <!-- {% else %} -->
                 <h2 id="logo">{{game.title}}</h2>
-                <!-- {% endif %} -->
 
                 <ul>
                     {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}

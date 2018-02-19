@@ -10,12 +10,14 @@ footer ul {
     margin-bottom: auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    width: 100%;
     
 }
 
 footer li {
     display: inline;
     justify-self: center;
+    margin: auto;
 }
 
 footer nav{
@@ -36,4 +38,11 @@ footer nav a {
 footer a:hover {
     color: white;
     transition: color 0.2s ease-in-out;
+}
+
+@media (max-width: 1000px){
+    footer ul {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
 }
