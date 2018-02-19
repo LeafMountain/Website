@@ -2,15 +2,26 @@
 layout: default
 ---
 
-<div class="wrapper">
-
 <section class="showcase">
 
         {% for game in site.games %}
-        <a href="{{site.baseurl}}{{game.url}}">
-            <div class="rounded card" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
+        <a class="boxshadow" href="{{site.baseurl}}{{game.url}}">
+
+            <div class="card rounded" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
+
+                <!-- {% if game.logo %} -->
+                    <!-- <img id="logo" src="{{site.baseurl}}{{game.logo}}" alt="Logo"> -->
+                <!-- {% else %} -->
+                    <h2 id="logo">{{game.title}}</h2>
+                <!-- {% endif %} -->
+
+                <ul>
+                    {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}
+                    {% if game.roles contains 'Gameplay' %}<li>Gameplay</li>{% endif %}
+                    {% if game.roles contains 'UI' %}<li>UI</li>{% endif %}
+                    {% if game.roles contains 'Tools' %}<li>Tools</li>{% endif %}
+                </ul>
                 <div id="overlay">
-                    <h2>{{game.title}}</h2>
                     <p>{{game.meta}}</p>
                 </div>
             </div>
@@ -19,5 +30,3 @@ layout: default
 
     
 </section>
-
-</div>

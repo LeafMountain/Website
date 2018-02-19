@@ -1,16 +1,17 @@
 header {
     position: fixed;
-    background: rgba(255, 255, 255, 0.9); 
+    background: var(--glass-color); 
     width: 100%;
     top: 0;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); */
     padding: 10px;
+    height: 130px;
     /* border-bottom: 2px; */
 }
 
 header h1{
-    font-size: 2.5rem;
-    color: black;
+    font-size: 2rem;
+    color: var(--text-color);
     text-transform: uppercase;
 }
 
@@ -34,7 +35,7 @@ header #grid {
 header #branding {
     /* grid-area: bran; */
     display: grid;
-    grid-template-columns: 1fr 70px 1fr;
+    grid-template-columns: 1fr 50px 1fr;
     grid-gap: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -44,6 +45,7 @@ header #branding {
 #name {
     justify-self: end;
     align-self: center;
+    text-align: right;
 }
 
 #title {
@@ -55,9 +57,10 @@ header #branding {
 header nav{
     /* grid-area: nav; */
     /* align-self: start; */
-    width: 40%;
+    width: 100%;
     justify-self: center;
     padding: 10px;
+    grid-gap: 30px;
 }
 
 header #portrait {
@@ -69,8 +72,22 @@ header #portrait {
 
 header a {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: var(--text-color);
+}
+
+header a:hover {
+    color: var(--accent-color);
+}
+
+/* header .wrapper {
+    width: 60%;
+} */
+
+@media (max-width: 1000px) {
+    /* header .wrapper {
+        width: 100%;
+    } */
 }

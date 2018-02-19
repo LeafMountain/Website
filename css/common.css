@@ -3,27 +3,41 @@
     --main-bg-color: #202020;
     --secondary-bg-color: #171717;
     --accent-color: #017e82;
+    --glass-color: rgba(0, 0, 0, 0.7);
+    --text-color: white;
+    
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;    
 
 }
 
 html { 
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Lato', sans-serif;
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
+    background: linear-gradient(to bottom left, var(--accent-color), black);
+    color: var(--text-color);
 }
 
 .wrapper {
-    width: 100%;
+    width: 60%;
     margin: auto;
 }
 
 .rounded {
-    /* border-radius: 5px; */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.boxshadow{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);    
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 5px;
 }
 
 @media (max-width: 1000px) {
