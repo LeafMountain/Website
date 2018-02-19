@@ -3,8 +3,8 @@
     --main-bg-color: #202020;
     --secondary-bg-color: #171717;
     --accent-color: #017e82;
-    --glass-color: rgba(0, 0, 0, 0.7);
-    --text-color: white;
+    --glass-color: rgba(255, 255, 255, 0.9);
+    --text-color: black;
     
 
     margin: 0;
@@ -14,9 +14,7 @@
 }
 
 html { 
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Lato', sans-serif;
-    /* background-color: var(--main-bg-color); */
     background: linear-gradient(to bottom left, var(--accent-color), black);
     color: var(--text-color);
 }
@@ -35,8 +33,16 @@ html {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);    
 }
 
+h1 {
+    font-size: 4rem;    
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+h3 {
     padding: 5px;
 }
 

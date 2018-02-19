@@ -3,6 +3,21 @@ section.showcase {
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     padding: 30px;
+    justify-content: center;
+}
+
+section.showcase a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+section.showcase a:hover {
+    width: 100%;
+    height: 100%;
+    
+    transition: width 0.3s ease-in-out;
 }
 
 .card {
@@ -14,34 +29,17 @@ section.showcase {
     align-content: end;
 }
 
-.card:hover {
-    /* box-shadow: 10px 10px 5px black; */
-    /* box-shadow: inset 0 0 20px #000000; */
-}
-
-
-section.showcase a {
-    text-decoration: none;
-}
-
-section.showcase a:hover {
-    /* box-shadow: 10px 10px 10px black; */
-}
-
 section.showcase #overlay {
     background: var(--glass-color);
-    height: 200px;
+    height: 150px;
     color: var(--text-color);
     align-self: end;
     box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);     
 }
 
-section.showcase #overlay h2 {
-    text-align: center;
-}
-
 section.showcase p {
     padding: 10px;
+    text-align: justify;
 }
 
 section.showcase #logo {
@@ -49,9 +47,14 @@ section.showcase #logo {
     justify-self: center;
     padding: 10px;
     align-self: start;
-    filter: drop-shadow(2px 2px 1px black);
+
+    filter: drop-shadow(1px 1px 1px black);
+    
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 section.showcase ul {
@@ -78,10 +81,10 @@ section.showcase li {
     font-size: 1.7rem;
     margin-top: auto;
 
-    border-style: solid;
+    /* border-style: solid;
     border-width: 2px;
     border-color: white;
-    border-bottom-width: 0px;
+    border-bottom-width: 0px; */
 
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -98,5 +101,9 @@ section.showcase li {
 
     .card {
         height: 400px;
+    }
+
+    section.showcase #logo {
+        font-size: 3rem;
     }
 }

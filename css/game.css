@@ -1,0 +1,16 @@
+.game {
+    padding: 10px;
+    margin: 10px;
+    background: var(--glass-color);
+    border-radius: 5px;
+    /* column-count: 2; */
+}
+
+.game p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.game ul {
+    padding-left: 30px;
+}

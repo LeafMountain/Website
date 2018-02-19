@@ -1,7 +1,12 @@
 ---
 layout: game
 title: 'The Good Few'
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis quam in libero consequat, et cursus urna pulvinar. In vel dictum nibh, congue tempus neque. Nam in nisi viverra, vulputate metus at, hendrerit massa. Aliquam placerat dapibus leo sit amet tincidunt. Aliquam viverra sit amet tortor eu pellentesque. <br> <br> Ut ut turpis varius, iaculis massa eu, laoreet purus. Duis at urna hendrerit, laoreet enim eget, congue magna. Nunc ac tempor ligula. Integer vel magna sit amet odio aliquet fringilla. Praesent id volutpat ex. Curabitur sagittis iaculis purus nec euismod.
+meta: 'The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
+
+<br>
+<br>
+
+The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.'
 coverImg: img/theGoodFew.png
 category: game
 roles:
@@ -11,6 +16,16 @@ roles:
     - Tools
 ---
 
-This is a game about stuff.
+The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
 
-You do stuff and stuff.
+The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
+
+Featuring a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
+
+In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music. <br> <br>
+
+```C#
+GameObject test;
+float aFloat;
+
+```

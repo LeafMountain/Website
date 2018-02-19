@@ -1,7 +1,7 @@
 ---
 layout: game
 title: 'Cuddle Fur'
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis quam in libero consequat, et cursus urna pulvinar. In vel dictum nibh, congue tempus neque. Nam in nisi viverra, vulputate metus at, hendrerit massa. Aliquam placerat dapibus leo sit amet tincidunt. Aliquam viverra sit amet tortor eu pellentesque. <br> <br> Ut ut turpis varius, iaculis massa eu, laoreet purus. Duis at urna hendrerit, laoreet enim eget, congue magna. Nunc ac tempor ligula. Integer vel magna sit amet odio aliquet fringilla. Praesent id volutpat ex. Curabitur sagittis iaculis purus nec euismod.
+meta: A 3D platformer inspired by the platformers from the Nintendo 64 era. This was a quick student project.
 coverImg: img/cuddleFur.png
 category: game
 roles:
