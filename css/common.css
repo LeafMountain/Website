@@ -46,6 +46,13 @@ h3 {
     padding: 5px;
 }
 
+.textbox {
+    padding: 10px;
+    margin: 10px;
+    background: var(--glass-color);
+    border-radius: 5px;
+}
+
 @media (max-width: 1000px) {
     .wrapper {
         width: 100%;

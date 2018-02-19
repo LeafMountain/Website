@@ -52,10 +52,10 @@ header #branding {
 }
 
 header nav{
-    width: 100%;
+    width: 600px;
     justify-self: center;
     padding: 10px;
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 header #portrait {

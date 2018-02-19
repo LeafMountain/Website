@@ -39,3 +39,4 @@ This crates a skinned mesh and assigns the correct bones.
 
 <iframe src="https://pastebin.com/embed_iframe/8hBdEvac" style="border:none;width:100%; height:500px;"></iframe>
 
+## AI
