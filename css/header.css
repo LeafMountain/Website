@@ -4,7 +4,7 @@ header {
     width: 100%;
     top: 0;
     padding: 10px;
-    height: 130px;
+    height: 100px;
 }
 
 header h1{
@@ -13,17 +13,7 @@ header h1{
     text-transform: uppercase;
 }
 
-header ul {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
-header li {
-    display: inline;
-    justify-self: center;
-}
 
 header #grid {
     display: grid;
@@ -51,33 +41,10 @@ header #branding {
     
 }
 
-header nav{
-    width: 600px;
-    justify-self: center;
-    padding: 10px;
-    grid-gap: 20px;
-}
-
 header #portrait {
     /* grid-area: port; */
     width: 100%;
     justify-self: center;
-    
-}
-
-header a {
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--accent-color);
-    
-}
-
-header a:hover {
-    color: var(--text-color);
-    /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); */
-    transition: color 0.2s ease-in-out;
     
 }
 

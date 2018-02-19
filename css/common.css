@@ -6,17 +6,25 @@
     --glass-color: rgba(255, 255, 255, 0.9);
     --text-color: black;
     
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html { 
     font-family: 'Lato', sans-serif;
     background: linear-gradient(to bottom left, var(--accent-color), black);
     color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--accent-color);
+    transition: color 0.2s ease-in-out;
 }
 
 .wrapper {
@@ -50,6 +58,10 @@ h3 {
 p {
     padding: 5px;
     text-align: justify;    
+}
+
+img {
+    width: 100%;
 }
 
 .textbox {

@@ -25,3 +25,5 @@ Featuring a class and sub-class-based leveling system, an upgradeable player hub
 In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music. <br> <br>
 
 ## AI
+
+An AI description here.
