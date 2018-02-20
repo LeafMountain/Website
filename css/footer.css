@@ -36,6 +36,7 @@ footer nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--accent-color);
+    transition: color 0.2s ease-in-out;
     
 }
 

@@ -22,39 +22,59 @@ section.showcase a:hover {
 
 .card {
     display: grid;
+
     height: 80vh;
     background-position: center;
     background-size: cover;
     width: 100%;
     align-content: end;
+    overflow: hidden;
 }
+
+
+/* Overlay */
 
 section.showcase #overlay {
-    background: var(--glass-color);
-    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
     color: var(--text-color);
-    align-self: end;
-    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);     
+    height: 100%;
 }
 
-section.showcase p {
-    padding: 10px;
-    text-align: justify;
-}
-
-section.showcase #logo {
+section.showcase #title {
     justify-self: center;
     padding: 10px;
     align-self: start;
-
-    filter: drop-shadow(1px 1px 1px black);
-    
-    color: white;
-    font-size: 4rem;
     text-align: center;
+
+    font-size: 2rem;
     max-width: 100%;
     text-transform: uppercase;
 }
+
+section.showcase #description {
+    background: var(--glass-color);
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+section.showcase p {
+    height: 0px;
+    transition: height 0.2s ease-in-out;
+    padding: 0 10px 0 10px;
+    
+}
+
+.card:hover p {
+    height: 200px;
+    transition: height 0.2s ease-in-out;
+
+    padding: 0 10px 0 10px;
+    
+    text-align: justify;
+}
+
+
+/* Tabs */
 
 section.showcase ul {
     align-self: end;
@@ -92,6 +112,7 @@ section.showcase li {
     padding: 5px;
 
 }
+
 
 @media (max-width: 1000px) {
     section.showcase {

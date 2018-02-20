@@ -12,18 +12,21 @@ layout: default
             <!-- {% if game.logo %}
                 <img id="logo" src="{{game.logo}}">
             {% else %} -->
-            <!-- {% endif %} -->
-            <h2 id="logo">{{game.title}}</h2>
-            
+            <!-- {% endif %} -->            
 
-            <ul>
-                {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}
-                {% if game.roles contains 'Gameplay' %}<li>Gameplay</li>{% endif %}
-                {% if game.roles contains 'UI' %}<li>UI</li>{% endif %}
-                {% if game.roles contains 'Tools' %}<li>Tools</li>{% endif %}
-            </ul>
             <div id="overlay">
-                <p>{{game.meta}}</p>
+                <div id="tabs">
+                    <ul>
+                        {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}
+                        {% if game.roles contains 'Gameplay' %}<li>Gameplay</li>{% endif %}
+                        {% if game.roles contains 'UI' %}<li>UI</li>{% endif %}
+                        {% if game.roles contains 'Tools' %}<li>Tools</li>{% endif %}
+                    </ul>
+                </div>
+                <div id="description">
+                    <h2 id="title">{{game.title}}</h2>
+                    <p>{{game.meta}}</p>
+                </div>
             </div>
         </div>
     </a>
