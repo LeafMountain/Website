@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="wrapper">
 <section class="showcase">
 
     {% for game in site.games %}
@@ -9,7 +9,12 @@ layout: default
 
         <div class="card rounded" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
 
+            <!-- {% if game.logo %}
+                <img id="logo" src="{{game.logo}}">
+            {% else %} -->
+            <!-- {% endif %} -->
             <h2 id="logo">{{game.title}}</h2>
+            
 
             <ul>
                 {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}
@@ -26,3 +31,4 @@ layout: default
 
     
 </section>
+</div>

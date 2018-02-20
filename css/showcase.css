@@ -43,7 +43,6 @@ section.showcase p {
 }
 
 section.showcase #logo {
-    max-height: 100px;
     justify-self: center;
     padding: 10px;
     align-self: start;
@@ -53,7 +52,7 @@ section.showcase #logo {
     color: white;
     font-size: 4rem;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     text-transform: uppercase;
 }
 
@@ -90,7 +89,7 @@ section.showcase li {
     border-top-right-radius: 3px;
 
     background: var(--glass-color);
-    padding-bottom: 5px;
+    padding: 5px;
 
 }
 

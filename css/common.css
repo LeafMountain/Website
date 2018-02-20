@@ -27,7 +27,7 @@ a:hover {
 }
 
 .wrapper {
-    width: 60%;
+    width: 80vw;
     margin: auto;
 }
 
@@ -72,6 +72,6 @@ img {
 
 @media (max-width: 1000px) {
     .wrapper {
-        width: 100%;
+        width: 100vw;
     }
 }

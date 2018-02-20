@@ -1,13 +1,14 @@
 ---
 layout: game
 title: 'The Good Few'
-meta: 'The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
+meta: 'The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
 
 <br>
 <br>
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.'
 coverImg: img/theGoodFew.png
+logo: img/theGoodFewLogo.png
 category: game
 roles:
     - AI
@@ -16,7 +17,7 @@ roles:
     - Tools
 ---
 
-The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
+The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
 
