@@ -3,6 +3,8 @@
 
 {% include_relative common.css %}
 {% include_relative body.css %}
+{% include_relative navigation.css %}
+
 {% include_relative showcase.css %}
 {% include_relative game.css %}
 {% include_relative header.css %}
