@@ -1,3 +1,8 @@
+.game {
+    display: inherit;
+    width: 90%;
+}
+
 .game ul {
     padding-left: 30px;
 }

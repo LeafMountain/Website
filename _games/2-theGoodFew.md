@@ -14,7 +14,6 @@ roles:
     - AI
     - Gameplay
     - UI
-    - Tools
 ---
 
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
@@ -23,8 +22,21 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 
 Featuring a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
-In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music. <br> <br>
+In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music. 
+
+Include Trailer Here
+
+<br> <br>
 
 ## AI
 
-An AI description here.
+* State machine
+* Pathfinding
+
+## Gameplay
+
+* Movement
+* Turn based system
+
+## UI
+

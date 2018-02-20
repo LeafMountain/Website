@@ -1,8 +1,5 @@
 footer {
     align-self: end;
-    
-    padding: 10px;
-    align-self: end;
     color: white;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -26,7 +23,6 @@ footer li {
 
 footer nav{
     justify-self: center;
-    padding: 10px;
     grid-gap: 20px;
 }
 

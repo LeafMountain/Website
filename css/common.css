@@ -19,6 +19,7 @@ html {
 a {
     text-decoration: none;
     color: var(--text-color);
+    transition: color 0.2s ease-in-out;    
 }
 
 a:hover {
@@ -68,10 +69,12 @@ img {
     margin: 10px;
     background: var(--glass-color);
     border-radius: 5px;
+    width: inherit;
+    justify-self: center;
 }
 
 @media (max-width: 1000px) {
     .wrapper {
-        width: 100vw;
+        width: 95vw;
     }
 }
