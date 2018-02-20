@@ -24,7 +24,11 @@ Featuring a class and sub-class-based leveling system, an upgradeable player hub
 
 In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music. 
 
-Include Trailer Here
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
 
 <br> <br>
 
