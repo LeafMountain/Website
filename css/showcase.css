@@ -50,17 +50,17 @@ section.showcase #description {
 
 section.showcase p {
     height: 0px;
-    transition: height 0.2s ease-in-out;
     padding: 0 10px 0 10px;
+
+    transition: all 0.3s ease-in-out;
 }
 
 .card:hover p {
     height: 200px;
-    transition: height 0.3s ease-in-out;
-
     padding: 0 10px 0 10px;
-    
     text-align: justify;
+
+    transition: all 0.3s ease-in-out;    
 }
 
 section.showcase #logo {
@@ -95,7 +95,7 @@ section.showcase li {
     width: 100%;
     min-width: 50px;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-top: auto;
 
     border-top-left-radius: 3px;

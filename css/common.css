@@ -4,7 +4,7 @@
     --secondary-bg-color: #171717;
     --accent-color: #017e82;
     --glass-color: rgba(255, 255, 255, 0.9);
-    --text-color: black;
+    --text-color: rgb(10, 10, 10);
     
     margin: 0;
     padding: 0;
@@ -70,7 +70,6 @@ img {
     background: var(--glass-color);
     border-radius: 5px;
     width: 100%;
-    /* justify-self: center; */
 }
 
 @media (max-width: 1000px) {
