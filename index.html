@@ -17,10 +17,9 @@ layout: default
             <div id="overlay">
                 <div id="tabs">
                     <ul>
-                        {% if game.roles contains 'Gameplay' %}<li>Gameplay</li>{% endif %}
-                        {% if game.roles contains 'AI' %} <li>AI</li> {% endif %}
-                        {% if game.roles contains 'UI' %}<li>UI</li>{% endif %}
-                        {% if game.roles contains 'Tools' %}<li>Tools</li>{% endif %}
+                        {% for role in game.roles %} 
+                            <li>{{role}}</li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div id="description">

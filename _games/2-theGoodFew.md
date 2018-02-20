@@ -11,8 +11,8 @@ coverImg: img/theGoodFew.png
 logo: img/theGoodFewLogo.png
 category: game
 roles:
-    - AI
     - Gameplay
+    - AI
     - UI
 ---
 

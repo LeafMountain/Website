@@ -1,13 +1,13 @@
 ---
 layout: game
-title: 'Arcane Nomads'
-meta: A survival rpg co-op top-down shooter with a focus on the feeling of ownership. One of the main features of the game is the ability to upgrad pretty much everything to make it feel like the player has created the game and tactics.
+title: 'Undead End'
+meta: 'A survival rpg co-op top-down shooter with a focus on the feeling of ownership. One of the main features of the game is the ability to upgrade pretty much everything to make it feel like the player has created the game and tactics.'
 coverImg: img/arcaneNomads.png
 logo: img/arcaneNomadsLogo.png
 category: game
 roles:
-    - AI
     - Gameplay
+    - AI
     - Tools
 ---
 
@@ -25,7 +25,8 @@ In the beginning of the project an experimental camera was created to see what f
 
 <br>
 
-<iframe src="https://pastebin.com/embed_iframe/8rNXrye6" style="border:none;width:100%; height:500px;"></iframe>
+<iframe src="https://pastebin.com/embed_iframe/8rNXrye6" style="border:none;width:100%; height:500px"></iframe>
+
 
 <br>
 

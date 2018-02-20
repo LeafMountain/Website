@@ -69,8 +69,8 @@ img {
     margin: 10px;
     background: var(--glass-color);
     border-radius: 5px;
-    width: inherit;
-    justify-self: center;
+    width: 100%;
+    /* justify-self: center; */
 }
 
 @media (max-width: 1000px) {

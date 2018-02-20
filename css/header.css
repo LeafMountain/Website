@@ -4,6 +4,7 @@ header {
     width: 100%;
     top: 0;
     padding: 10px;
+    z-index: 1;
 }
 
 header h1{
@@ -38,7 +39,6 @@ header #branding {
 }
 
 header #portrait {
-    /* grid-area: port; */
     width: 100%;
     justify-self: center;
     

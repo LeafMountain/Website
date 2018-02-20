@@ -1,23 +1,13 @@
 section.showcase {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 33%);
     padding: 20px;
     justify-content: center;
 }
 
 section.showcase a {
     text-decoration: none;
-    width: 100%;
-    height: 100%;
-    justify-self: center;
-}
-
-section.showcase a:hover {
-    width: 100%;
-    height: 100%;
-    
-    transition: width 0.3s ease-in-out;
 }
 
 .card {
@@ -30,7 +20,6 @@ section.showcase a:hover {
     align-content: end;
     overflow: hidden;
 }
-
 
 /* Overlay */
 
@@ -88,23 +77,23 @@ section.showcase #logo {
 section.showcase ul {
     align-self: end;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    width: 100%;
+    grid-template-columns: repeat(4, auto);
+    justify-content: left;
+    width: 70%;
     grid-gap: 10px;
     align-self: end;
     padding-left: 10px;
     padding-right: 10px;
     color: var(--text-color);
     font-weight: bold;
-    justify-content: center;
 }
 
 section.showcase li {
-    align-self: center;
-    justify-self: center;
+    /* align-self: center; */
+    /* justify-self: center; */
     display: inline;
     width: 100%;
+    min-width: 50px;
     text-align: center;
     font-size: 1.7rem;
     margin-top: auto;
@@ -124,7 +113,7 @@ section.showcase li {
     }
 
     .card {
-        height: 400px;
+        height: 40vh;
     }
 
     section.showcase #logo {
