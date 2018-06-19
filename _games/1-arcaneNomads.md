@@ -1,6 +1,6 @@
 ---
 layout: game
-title: 'Undead End'
+title: 'Arcane Nomads'
 meta: 'A survival rpg co-op top-down shooter with a focus on the feeling of ownership. One of the main features of the game is the ability to upgrade pretty much everything to make it feel like the player has created the game and tactics.'
 coverImg: img/arcaneNomads.png
 logo: img/arcaneNomadsLogo.png
@@ -8,17 +8,23 @@ category: game
 roles:
     - Gameplay
     - AI
-    - Tools
 ---
 
-Undead End (Project Name) is a co-op multiplayer top-down survival shooter set in a dark post-apocalyptic zombie ridden world. Your goal as survivors is simply surviving, you cannot stay in place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.
+Arcane Nomads is a co-op multiplayer top-down survival shooter set in a dark post-apocalyptic zombie ridden world. Your goal as survivors is simply surviving, you cannot stay in place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.
 
-In its current iteration (early alpha) it mostly has basic functionality such as different weapons, an entire city level shrouded in darkness to explore and survive.
+My contributions to this project is
+* Initial design, setting and feeling of the game
+* Main programmer
+* Main AI programmer
+
+Tools used:
+* Unity
+* C#
 
 <br>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MRJTUXejQXI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="80%" src="https://www.youtube.com/embed/MRJTUXejQXI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
 

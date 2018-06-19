@@ -44,7 +44,7 @@ section.showcase #title {
 
 section.showcase #description {
     background: var(--glass-color);
-    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+    
     position: relative;
 }
 
@@ -103,7 +103,13 @@ section.showcase li {
 
     background: var(--glass-color);
     padding: 5px;
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
 
+section.showcase li:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0);
 }
 
 
