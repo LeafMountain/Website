@@ -1,8 +1,8 @@
 section.showcase {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 33%);
-    padding: 20px;
+    /* grid-gap: 20px; */
+    grid-template-columns: repeat(4, 25%);
+    /* padding: 20px; */
     justify-content: center;
 }
 
@@ -12,14 +12,14 @@ section.showcase a {
 
 .card {
     display: grid;
-
-    height: 80vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     width: 100%;
     align-content: end;
     overflow: hidden;
 }
+
 
 /* Overlay */
 
@@ -36,7 +36,6 @@ section.showcase #title {
     align-self: start;
     /* text-align: center; */
     /* float: left; */
-
     font-size: 2rem;
     max-width: 100%;
     text-transform: uppercase;
@@ -44,14 +43,12 @@ section.showcase #title {
 
 section.showcase #description {
     background: var(--glass-color);
-    
     position: relative;
 }
 
 section.showcase p {
     height: 0px;
     padding: 0 10px 0 10px;
-
     transition: all 0.3s ease-in-out;
 }
 
@@ -59,8 +56,7 @@ section.showcase p {
     height: 200px;
     padding: 0 10px 0 10px;
     text-align: justify;
-
-    transition: all 0.3s ease-in-out;    
+    transition: all 0.3s ease-in-out;
 }
 
 section.showcase #logo {
@@ -97,10 +93,8 @@ section.showcase li {
     text-align: center;
     font-size: 1.4rem;
     margin-top: auto;
-
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-
     background: var(--glass-color);
     padding: 5px;
     box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
@@ -112,16 +106,13 @@ section.showcase li:hover {
     box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0);
 }
 
-
 @media (max-width: 1000px) {
     section.showcase {
         grid-template-columns: 1fr;
     }
-
     .card {
         height: 25vh;
     }
-
     section.showcase #logo {
         font-size: 3rem;
     }
