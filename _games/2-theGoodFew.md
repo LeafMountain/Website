@@ -10,9 +10,13 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 coverImg: img/theGoodFew.png
 logo: img/theGoodFewLogo.png
 category: game
-roles:
+tags:
     - Turn Based
     - RPG
+duration: '2'
+engine: Unity3D
+languages: C#
+roles: 'Tech Lead / Lead Programmer'
 ---
 
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
@@ -25,8 +29,12 @@ My role in this project is:
 * Main and only programmer
 * Unity guide
 
+This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions.
+
 <br>
 
+# Trailer (SGA)
+
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>

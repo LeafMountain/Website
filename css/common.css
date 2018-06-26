@@ -4,7 +4,8 @@
     --secondary-bg-color: #171717;
     --accent-color: #017e82;
     --glass-color: rgba(255, 255, 255, 0.9);
-    --text-color: rgb(10, 10, 10);
+    --glass-color-dark: rgba(36, 36, 36, 0.9);
+    --text-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,12 +68,21 @@ img {
     padding: 10px;
     margin: 10px;
     background: var(--glass-color);
-    border-radius: 5px;
     width: 100%;
 }
 
 ul {
     padding-left: 30px;
+}
+
+.justifyright {
+    justify-self: right;
+    text-align: right;
+}
+
+.justifyleft {
+    justify-self: left;
+    text-align: left;
 }
 
 @media (max-width: 1000px) {

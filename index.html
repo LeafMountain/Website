@@ -1,41 +1,30 @@
+--- 
+layout: default 
 ---
-layout: default
----
-<div class="wrapper">
 <section class="showcase">
 
     {% for game in site.games %}
-    <a class="boxshadow" href="{{site.baseurl}}{{game.url}}">
-
-        <div class="card rounded" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
-
-            <!-- {% if game.logo %}
-                <img id="logo" src="{{game.logo}}">
-            {% else %} -->
-            <!-- {% endif %} -->            
-
+        <div class="card boxshadow" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
             <div id="overlay">
-                <div id="tabs">
-                    <ul>
-                        {% for role in game.roles %} 
-                            <li>{{role}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
                 <div id="description">
+                    <img id="logo" src="{{game.logo}}">
+
                     <div>
-                        <img id="logo" src="{{game.logo}}">
                         <h2 id="title">{{game.title}}</h2>
                     </div>
 
                     <p>{{game.meta}}</p>
 
+                    <a id="button" href="{{site.baseurl}}{{game.url}}">
+                        Read More
+                    </a>
                 </div>
+
+                
+                
             </div>
         </div>
-    </a>
     {% endfor %}
 
-    
+
 </section>
-</div>

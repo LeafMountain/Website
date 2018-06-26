@@ -2,12 +2,42 @@
 layout: default
 ---
 
-<div class="wrapper">
-    <section class="textbox">
-        <h1>{{page.title}}</h1>
-        <h3>Roles: {% for role in page.roles %} {{role}}, {% endfor %}</h3>
-        {{content}}
+<div class="game" style="background-image: url({{site.baseurl}}/{{page.coverImg}})">
+    <div id="content">
+        <div id="title" >
+            <h1>{{page.title}}</h1>
+            <h3>• {% for tag in page.tags %} {{tag}} • {% endfor %}</h3>
 
-    </section>
+            {% if page.engine %}
+            <table>
+                <tr>
+                    <td class="justifyright"><b>Engine : </b></td>
+                    <td>{{page.engine}}</td>
+                </tr>
+                <tr>
+                    <td class="justifyright"><b>Language : </b></td>
+                    <td>{{page.languages}}</td>
+                </tr>
+                <tr>
+                    <td class="justifyright"><b>Development Time : </b></td>
+                    <td>~{{page.duration}} months</td>
+                </tr>
+                <tr>
+                    <td class="justifyright"><b>Roles : </b></td>
+                    <td>{{page.roles}}</td>
+                </tr>
+            </table>
+            {% endif %}
+
+        </div>
+
+        <div>
+            <p>
+                {{content}}
+            </p>
+        </div>
+
+    </div>
+
 
 </div>
