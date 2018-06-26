@@ -33,7 +33,7 @@ This game was sent to Swedish Game Awards. It did not get nominated but we are p
 
 <br>
 
-# Trailer (SGA)
+## Trailer (SGA)
 
 <center>
 <iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
