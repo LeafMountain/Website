@@ -16,7 +16,7 @@ tags:
 
 <br>
 <center>
-<a class="button" href="{{site.baseurl}}/data/AlexanderLovbergCV.pdf">CV</a>
+<a class="button" href="{{site.baseurl}}/data/CV_AlexanderLovberg.pdf">CV</a>
 <a class="button" href="https://www.linkedin.com/in/alexanderlovberg/">LinkedIn</a>
 <a class="button" href="https://twitter.com/LeafMountain">Twitter</a>
 <a class="button" href="https://github.com/LeafMountain">GitHub</a>
