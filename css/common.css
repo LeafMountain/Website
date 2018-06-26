@@ -44,15 +44,24 @@ a:hover {
 h1 {
     font-size: 4rem;
     padding: 5px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 3rem;
     padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h3 {
     padding: 5px;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 p {
@@ -83,6 +92,31 @@ ul {
 .justifyleft {
     justify-self: left;
     text-align: left;
+}
+
+.button {
+    align-self: end;
+    justify-self: center;
+
+    width: max-content;
+    border: 2px;
+    border-width: 2px;
+    border-style: solid;
+
+    border-color: var(--text-color);
+    color: var(--text-color);
+
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 1000px) {
