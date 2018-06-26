@@ -1,8 +1,60 @@
 .game {
-    display: inherit;
-    width: 90%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.game #content {
+    width: 60%;
+
+    height: 100%;
+    color: var(--text-color);
+    padding: 50px;
+    background: var(--glass-color-dark);
+    margin: auto;
 }
 
 .game ul {
     padding-left: 30px;
+}
+
+.game #title {
+    text-align: center;
+    margin-bottom: 30px;
+    /* width: 60%; */
+    margin: auto;
+}
+
+.game h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.game table {
+    table-layout: fixed;
+    justify-self: center;
+    padding-top: 10px;
+    margin: auto;
+    text-align: left;
+    width: 100%;
+}
+
+.game td {
+    padding: 3px;
+}
+
+@media (max-width: 1000px) {
+    .game #content {
+        width: 95%;
+    }
+
+    .game #title {
+        width: 100%;
+    }
+
+    .game table {
+        width: 100%;
+    }
 }

@@ -1,9 +1,8 @@
 section.showcase {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 33%);
-    padding: 20px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100%;
+    vertical-align: middle;
 }
 
 section.showcase a {
@@ -11,15 +10,15 @@ section.showcase a {
 }
 
 .card {
-    display: grid;
+    height: 100%;
 
-    height: 80vh;
+    display: grid;
     background-position: center;
     background-size: cover;
     width: 100%;
-    align-content: end;
     overflow: hidden;
 }
+
 
 /* Overlay */
 
@@ -28,47 +27,79 @@ section.showcase #overlay {
     grid-template-columns: 1fr;
     color: var(--text-color);
     height: 100%;
+    background: var(--glass-color-dark);
+    padding: 10%;
 }
+
 
 section.showcase #title {
     /* justify-self: center; */
     padding: 10px;
-    align-self: start;
+    align-self: center;
     /* text-align: center; */
     /* float: left; */
-
     font-size: 2rem;
     max-width: 100%;
     text-transform: uppercase;
 }
 
 section.showcase #description {
-    background: var(--glass-color);
-    
+    display: grid;
+
     position: relative;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: min-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background: teal; */
+    /* text-align: center; */
 }
 
 section.showcase p {
-    height: 0px;
-    padding: 0 10px 0 10px;
-
-    transition: all 0.3s ease-in-out;
+    height: 5cm;
+    text-align: center;
+    /* align-content: center;
+    text-align: center; */
+    /* padding: 0 10px 0 10px; */
+    /* transition: all 0.3s ease-in-out; */
 }
 
-.card:hover p {
+
+/* .card:hover p {
     height: 200px;
     padding: 0 10px 0 10px;
     text-align: justify;
-
-    transition: all 0.3s ease-in-out;    
-}
+    transition: all 0.3s ease-in-out;
+} */
 
 section.showcase #logo {
-    width: 100px;
-    position: absolute;
-    float: right;
-    right: 10px;
-    top: -70px;
+    max-width: 3cm;
+    height: 3cm;
+    justify-self: center;
+}
+
+section.showcase #button {
+    align-self: end;
+    justify-self: center;
+
+    /* width: 100%; */
+    border: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--text-color);
+    color: var(--text-color);
+
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+section.showcase #button:hover {
+    background: var(--accent-color);
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -97,32 +128,28 @@ section.showcase li {
     text-align: center;
     font-size: 1.4rem;
     margin-top: auto;
-
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
+    /* border-top-left-radius: 3px;
+    border-top-right-radius: 3px; */
     background: var(--glass-color);
-    padding: 5px;
-    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.2s ease-in-out;
+    /* padding: 5px; */
+    /* box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out; */
 }
 
-section.showcase li:hover {
+
+/* section.showcase li:hover {
     transition: all 0.2s ease-in-out;
     box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0);
-}
-
+} */
 
 @media (max-width: 1000px) {
     section.showcase {
         grid-template-columns: 1fr;
     }
-
-    .card {
+    /* .card {
         height: 25vh;
-    }
-
-    section.showcase #logo {
+    } */
+    /* section.showcase #logo {
         font-size: 3rem;
-    }
+    } */
 }

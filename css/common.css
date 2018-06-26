@@ -4,7 +4,8 @@
     --secondary-bg-color: #171717;
     --accent-color: #017e82;
     --glass-color: rgba(255, 255, 255, 0.9);
-    --text-color: rgb(10, 10, 10);
+    --glass-color-dark: rgba(36, 36, 36, 0.9);
+    --text-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,7 +28,7 @@ a:hover {
 }
 
 .wrapper {
-    width: 80vw;
+    width: 100%;
     margin: auto;
 }
 
@@ -43,15 +44,24 @@ a:hover {
 h1 {
     font-size: 4rem;
     padding: 5px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 3rem;
     padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h3 {
     padding: 5px;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 p {
@@ -67,12 +77,46 @@ img {
     padding: 10px;
     margin: 10px;
     background: var(--glass-color);
-    border-radius: 5px;
     width: 100%;
 }
 
 ul {
     padding-left: 30px;
+}
+
+.justifyright {
+    justify-self: right;
+    text-align: right;
+}
+
+.justifyleft {
+    justify-self: left;
+    text-align: left;
+}
+
+.button {
+    align-self: end;
+    justify-self: center;
+
+    width: max-content;
+    border: 2px;
+    border-width: 2px;
+    border-style: solid;
+
+    border-color: var(--text-color);
+    color: var(--text-color);
+
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 1000px) {
