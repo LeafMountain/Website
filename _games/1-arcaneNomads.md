@@ -12,7 +12,7 @@ tags:
     - 3rd Person
     - Interesting AI
     - Survival
-duration: '3'
+duration: '2'
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
@@ -32,8 +32,8 @@ My contributions:
 
 <br>
 
-## Trailer (Pre-Alpha)
+## Look and Feel (Pre-Alpha)
 
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/MRJTUXejQXI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/aeAqtWXhf4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>

@@ -75,7 +75,7 @@ section.showcase p {
 } */
 
 section.showcase #logo {
-    width: 3cm;
+    width: auto;
     height: 3cm;
     justify-self: center;
 }
