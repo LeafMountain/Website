@@ -20,7 +20,7 @@ tags:
 <a class="button" href="https://www.linkedin.com/in/alexanderlovberg/">LinkedIn</a>
 <a class="button" href="https://twitter.com/LeafMountain">Twitter</a>
 <a class="button" href="https://github.com/LeafMountain">GitHub</a>
-<a class="button" href="mailto: lovbergalexander@gmail.com">Mail</a>
+<a class="button" href="mailto: contact@alexanderlovberg.com">Mail</a>
 </center>
 <br>
 
