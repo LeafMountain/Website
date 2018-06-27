@@ -3,14 +3,14 @@ body {
     /* grid-template-columns: 1fr; */
     /* grid-gap: 20px; */
     /* grid-template-rows: 1fr; */
-    grid-template-rows: min-content auto min-content;
+    /* grid-template-rows: min-content auto; */
 
     min-height: 100vh;
     width: 100%;
     
     background-size: cover;
     background-position: center;
-    /* padding-top: 80px; */
+    background: var(--accent-color);
     background: linear-gradient(to bottom left, var(--accent-color), black);
     /* align-content: end; */
 }
