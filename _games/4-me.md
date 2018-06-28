@@ -11,7 +11,7 @@ tags:
     - Amazing Designer
     - Awesome Programmer
     - Super Kind
-    - Animal Lover
+    - Animal Friend
 ---
 
 <br>
