@@ -9,9 +9,11 @@ logo: img/arcaneNomadsLogo.png
 category: game
 
 tags:
-    - 3rd Person
-    - Interesting AI
-    - Survival
+    - C#
+    - Unity3D
+    - Lead Programmer
+    - 2 months
+    - Under Development
 duration: '2'
 engine: Unity3D
 languages: C#

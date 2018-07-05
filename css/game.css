@@ -6,14 +6,18 @@
     height: 100%;
 }
 
+.game #overlay {
+    background: var(--glass-color-dark);
+}
+
 .game #content {
     width: 60%;
     height: 100%;
     color: var(--text-color);
     padding: 50px;
     padding-top: 80px;
-    background: var(--glass-color-dark);
     margin: auto;
+    
 }
 
 .game ul {
@@ -23,8 +27,14 @@
 .game #title {
     text-align: center;
     margin-bottom: 30px;
-    /* width: 60%; */
     margin: auto;
+}
+
+.game #title li {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
 }
 
 .game h1 {

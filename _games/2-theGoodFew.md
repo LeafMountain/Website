@@ -11,8 +11,10 @@ coverImg: img/theGoodFew.png
 logo: img/theGoodFewLogo.png
 category: game
 tags:
-    - Turn Based
-    - RPG
+    - C#
+    - Unity3D
+    - Lead Programmer
+    - 2 months
 duration: '2'
 engine: Unity3D
 languages: C#

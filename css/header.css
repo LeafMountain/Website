@@ -8,7 +8,22 @@ header {
     color: rgb(10, 10, 10);
     
     height: min-content;
+
+    /* animation-name: example;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease; */
 }
+
+/* @-webkit-keyframes example {
+    from {top: -70px;}
+    to {top: 0px;}
+}
+
+@keyframes example {
+    from {top: -70px;}
+    to {top: 0px;}
+} */
 
 header h1{
     font-size: 1.4rem;

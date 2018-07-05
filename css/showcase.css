@@ -12,7 +12,6 @@ section.showcase a {
 .card {
     height: 100%;
 
-    display: grid;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -29,15 +28,20 @@ section.showcase #overlay {
     height: 100%;
     background: var(--glass-color-dark);
     padding: 10%;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+section.showcase #overlay:hover {
+    /* background: rgba(0, 0, 0, 0.2); */
+    transition: all 0.2s ease-in-out;
+    /* backdrop-filter: blur(10px); */
 }
 
 
 section.showcase #title {
-    /* justify-self: center; */
     padding: 10px;
     align-self: center;
-    /* text-align: center; */
-    /* float: left; */
     font-size: 2rem;
     max-width: 100%;
     text-transform: uppercase;
@@ -46,33 +50,15 @@ section.showcase #title {
 section.showcase #description {
     display: grid;
 
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
     height: min-content;
     margin-top: auto;
     margin-bottom: auto;
-    /* background: teal; */
-    /* text-align: center; */
 }
 
 section.showcase p {
     height: 7cm;
     text-align: center;
-    /* align-content: center;
-    text-align: center; */
-    /* padding: 0 10px 0 10px; */
-    /* transition: all 0.3s ease-in-out; */
 }
-
-
-/* .card:hover p {
-    height: 200px;
-    padding: 0 10px 0 10px;
-    text-align: justify;
-    transition: all 0.3s ease-in-out;
-} */
 
 section.showcase #logo {
     width: auto;
@@ -103,53 +89,8 @@ section.showcase #button:hover {
 }
 
 
-/* Tabs */
-
-section.showcase ul {
-    align-self: end;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: left;
-    width: 70%;
-    grid-gap: 10px;
-    align-self: end;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: var(--text-color);
-    font-weight: bold;
-}
-
-section.showcase li {
-    /* align-self: center; */
-    /* justify-self: center; */
-    display: inline;
-    width: 100%;
-    min-width: 50px;
-    text-align: center;
-    font-size: 1.4rem;
-    margin-top: auto;
-    /* border-top-left-radius: 3px;
-    border-top-right-radius: 3px; */
-    background: var(--glass-color);
-    /* padding: 5px; */
-    /* box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.2s ease-in-out; */
-}
-
-
-/* section.showcase li:hover {
-    transition: all 0.2s ease-in-out;
-    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0);
-} */
-
 @media (max-width: 1000px) {
     section.showcase {
         grid-template-columns: 1fr;
     }
-    /* .card {
-        height: 25vh;
-    } */
-    /* section.showcase #logo {
-        font-size: 3rem;
-    } */
 }

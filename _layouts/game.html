@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
-
-<div class="game" style="background-image: url({{site.baseurl}}/{{page.coverImg}})">
+<div class="backgroundblur" style="background-image: url({{site.baseurl}}/{{page.coverImg}})"></div>
+<div class="game">
+    <div id="overlay">
     <div id="content">
         <div id="title" >
             <h1>{{page.title}}</h1>
-            <h3>• {% for tag in page.tags %} {{tag}} • {% endfor %}</h3>
+            <h3>
+                <ul>
+                    • 
+                    {% for tag in page.tags %} 
+                    <li> {{tag}}  </li> •
+                    {% endfor %}
+                </ul>
+            </h3>
 
-            {% if page.engine %}
+            <!-- {% if page.engine %}
             <table>
                 <tr>
                     <td class="justifyright"><b>Engine : </b></td>
@@ -19,7 +27,7 @@ layout: default
                     <td>{{page.languages}}</td>
                 </tr>
                 <tr>
-                    <td class="justifyright"><b>Development Time : </b></td>
+                    <td class="justifyright"><b>Duration : </b></td>
                     <td>~{{page.duration}} months</td>
                 </tr>
                 <tr>
@@ -27,7 +35,7 @@ layout: default
                     <td>{{page.roles}}</td>
                 </tr>
             </table>
-            {% endif %}
+            {% endif %} -->
 
         </div>
 
@@ -38,6 +46,5 @@ layout: default
         </div>
 
     </div>
-
-
+    </div>
 </div>

@@ -8,10 +8,9 @@ coverImg: img/alex.jpg
 logo: img/logo.png
 category: game
 tags:
-    - Amazing Designer
     - Awesome Programmer
+    - Amazing Designer
     - Super Kind
-    - Animal Friend
 ---
 
 <br>
@@ -35,7 +34,15 @@ Now I'm a newly graduated Game Design and Scripting student living in Sweden.
 <br>
 
 
+
+
 ## EXPERIENCES
+
+* ### FUTUREGAMES GAME PROGRAMMER
+#### 2018 - Present <br>
+Studying game programming.
+
+<br>
 
 * ### BACHELOR OF SCIENCE IN MEDIA TECHNOLOGY
 #### 2018 <br>
