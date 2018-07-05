@@ -56,6 +56,14 @@
     padding: 3px;
 }
 
+.game h3 {
+    padding-bottom: 0;
+}
+
+.game h4 {
+    padding-top: 0;
+}
+
 @media (max-width: 1000px) {
     .game #content {
         width: 95%;
