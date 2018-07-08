@@ -1,35 +1,36 @@
 nav{
     justify-self: center;
-    grid-gap: 20px;
+    background: red;
 }
 
 nav ul {
-    margin-top: auto;
-    margin-bottom: auto;
+    width: max-content;
+    background: teal;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    width: inherit;
-    grid-gap: 0;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: center; */
+    /* justify-self: center; */
+
 }
 
 nav li {
     display: inline;
-    justify-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    /* justify-self: center; */
+    padding: 0 5px 0 5px;
 }
 
 nav a {
     font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
+    /* font-size: 1rem; */
+    /* text-decoration: none; */
     text-transform: uppercase;
-    color: var(--accent-color);
-    transition: color 0.2s ease-in-out;
+    /* color: var(--accent-color); */
+    /* transition: color 0.2s ease-in-out; */
     
 }
 
-nav a:hover {
+/* nav a:hover {
     color: white;
     transition: color 0.2s ease-in-out;
-}
+} */

@@ -1,44 +1,43 @@
 ---
 layout: default
 ---
-<div class="backgroundblur" style="background-image: url({{site.baseurl}}/{{page.coverImg}})"></div>
+<div class="backgroundblur fadeindelayed" style="background-image: url({{site.baseurl}}/{{page.coverImg}})"></div>
 <div class="game">
     <div id="overlay">
-    <div id="content"  class="fadein">
-        <div id="title">
-            <h1>{{page.title}}</h1>
-            <h3>
-                <ul>
-                    • 
-                    {% for tag in page.tags %} 
-                    <li> {{tag}}  </li> •
-                    {% endfor %}
-                </ul>
-            </h3>
+        <div id="content"  class="fadein">
+            <div id="title">
+                <h1>{{page.title}}</h1>
+                <h3>
+                    <ul>
+                        • 
+                        {% for tag in page.tags %} 
+                        <li> {{tag}}  </li> •
+                        {% endfor %}
+                    </ul>
+                </h3>
 
-            <!-- {% if page.engine %}
-            <table>
-                <tr>
-                    <td class="justifyright"><b>Engine : </b></td>
-                    <td>{{page.engine}}</td>
-                </tr>
-                <tr>
-                    <td class="justifyright"><b>Language : </b></td>
-                    <td>{{page.languages}}</td>
-                </tr>
-                <tr>
-                    <td class="justifyright"><b>Duration : </b></td>
-                    <td>~{{page.duration}} months</td>
-                </tr>
-                <tr>
-                    <td class="justifyright"><b>Roles : </b></td>
-                    <td>{{page.roles}}</td>
-                </tr>
-            </table>
-            {% endif %} -->
+                <!-- {% if page.engine %}
+                <table>
+                    <tr>
+                        <td class="justifyright"><b>Engine : </b></td>
+                        <td>{{page.engine}}</td>
+                    </tr>
+                    <tr>
+                        <td class="justifyright"><b>Language : </b></td>
+                        <td>{{page.languages}}</td>
+                    </tr>
+                    <tr>
+                        <td class="justifyright"><b>Duration : </b></td>
+                        <td>~{{page.duration}} months</td>
+                    </tr>
+                    <tr>
+                        <td class="justifyright"><b>Roles : </b></td>
+                        <td>{{page.roles}}</td>
+                    </tr>
+                </table>
+                {% endif %} -->
 
-        </div>
-
+            </div>
         <div>
             <p>
                 {{content}}

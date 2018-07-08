@@ -1,15 +1,14 @@
 header {
     position: fixed;
-    /* background: var(--glass-color);  */
+    background: var(--glass-color-dark); 
     width: 100vw;
     padding: 5px;
     z-index: 1;
     align-self: start;
     
     height: min-content;
+    overflow: hidden;
     /* background: rgba(255, 255, 255, 0.05); */
-
-    
 }
 
 header h1{
@@ -21,13 +20,16 @@ header a {
     color: white; */
     /* -webkit-text-stroke: 1px black; */
     color: white;
-    --stroke-color: black;
+    --stroke-color: var(--glass-color-dark);
     text-shadow:
-        /* 1px 1px 0 var(--stroke-color), */
         -1px -1px 0 var(--stroke-color),  
         1px -1px 0 var(--stroke-color),
         -1px 1px 0 var(--stroke-color),
         1px 1px 0 var(--stroke-color);
+}
+
+.sticky {
+    background: red;
 }
 
 header #branding {
