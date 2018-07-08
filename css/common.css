@@ -130,6 +130,23 @@ ul {
     filter: blur(10px);
 }
 
+.fadein {
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 @media (max-width: 1000px) {
     .wrapper {
         width: 95vw;

@@ -1,36 +1,33 @@
 header {
     position: fixed;
-    background: var(--glass-color); 
-    width: 100%;
+    /* background: var(--glass-color);  */
+    width: 100vw;
     padding: 5px;
     z-index: 1;
     align-self: start;
-    color: rgb(10, 10, 10);
     
     height: min-content;
+    /* background: rgba(255, 255, 255, 0.05); */
 
-    /* animation-name: example;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-    -webkit-animation-timing-function: ease; */
+    
 }
-
-/* @-webkit-keyframes example {
-    from {top: -70px;}
-    to {top: 0px;}
-}
-
-@keyframes example {
-    from {top: -70px;}
-    to {top: 0px;}
-} */
 
 header h1{
     font-size: 1.4rem;
 }
 
 header a {
-    color: rgb(10, 10, 10);
+    /* color: rgb(10, 10, 10);
+    color: white; */
+    /* -webkit-text-stroke: 1px black; */
+    color: white;
+    --stroke-color: black;
+    text-shadow:
+        /* 1px 1px 0 var(--stroke-color), */
+        -1px -1px 0 var(--stroke-color),  
+        1px -1px 0 var(--stroke-color),
+        -1px 1px 0 var(--stroke-color),
+        1px 1px 0 var(--stroke-color);
 }
 
 header #branding {
@@ -38,6 +35,9 @@ header #branding {
     grid-template-columns: 1fr auto 1fr;
     grid-gap: 10px;
     align-items: center;
+    border-radius: 3px;
+    width: max-content;
+    margin: auto;
 }
 
 header #logo {
