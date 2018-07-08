@@ -8,6 +8,7 @@
 
 .game #overlay {
     background: var(--glass-color-dark);
+    height: 100%;
 }
 
 .game #content {
