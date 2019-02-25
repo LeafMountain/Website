@@ -31,6 +31,7 @@ The game uses voice input to control the game. By saying the characters name the
 
 ### Survival:
 The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all.
+![Image of Astrid and dog getting warm](img/SurvivalIsland/astridgetwarm.gif)
 
 ### Management:
 The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
@@ -44,7 +45,7 @@ We want to give the player the ability to make the game their own adventure. By 
 ### Humor:
 placeholde
 
-#### Post
+## Post
 
 One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Ofcourse speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
 
