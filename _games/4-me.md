@@ -69,7 +69,7 @@ I'm currently a student living in Sweden studying game programming.
 | Lua | Git |
 | HTML | Perforce |
 | CSS | Jira |
-| | Hansoft |
+| PHP | Hansoft |
 
 <br>
 
