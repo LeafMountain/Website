@@ -1,10 +1,11 @@
 ---
 layout: game
 title: 'Alexander Lövberg'
-meta: 'I'm a game entusiast by heart and I have found my passion in life, being a game developer. 
+meta: 'I am a game entusiast by heart and I have found my passion in life, being a game developer. 
 <br><br>
 I like to play around with most things within programming and I tend to gather information on pretty every topic. 
-<br> <br> I'm currently studying game programming at FutureGames in Stockholm Sweden.'
+<br><br> 
+I'm currently studying game programming at FutureGames in Stockholm Sweden.'
 coverImg: img/alex.jpg
 logo: img/logo.png
 category: game
@@ -31,6 +32,21 @@ I am a passionate game nerd and game developer. I love dreaming of and creating 
 When I was younger I started developing in HTML and made a few personal websites. That later blossomed into an even bigger thirst when it came to programming. The feeling of making something work the way I wanted it to and to see it visually on the computer screen is a huge drive for me. I consider myself a lazy person (doing the dishes might be one of the most soul killing activities there is) but I do love putting work into solutions that makes it easier for me.
 
 I'm currently a student living in Sweden studying game programming.
+
+### Programming Languages
+* C++
+* C#
+* Lua
+* HTML
+* CSS
+
+### Tools
+* Unreal Engine 4
+* Unity3D
+* Git
+* Perforce
+* Jira
+* Hansoft
 
 <br>
 
