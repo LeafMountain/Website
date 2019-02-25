@@ -1,7 +1,9 @@
 ---
 layout: game
 title: 'Survival Island'
-meta: 'Short summary'
+meta: 'This game is still being developed and might be missing some elements like proper logo and final version of ingame assets.
+<br><br>
+A group of teenagears are stranded on an island and have no idea how to survive. It's your job to try and guide these defiant people and help them survive until they find a way to get home again.'
 coverImg: img/survivalIsland.png
 logo: img/survivalIslandLogo.png
 category: game
