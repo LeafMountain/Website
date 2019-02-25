@@ -43,27 +43,31 @@ I'm currently a student living in Sweden studying game programming.
 * HTML
 * CSS
         </td>
+    </tr>
+    <tr>
         <td>
 
-### Tools
-* Unreal Engine 4
-* Unity3D
-* Git
-* Perforce
-* Jira
-* Hansoft
+<h3> Tools </h3>
+<ul>
+<li>Unreal Engine 4</li>
+<li>Unity3D</li>
+<li>Git</li>
+<li>Perforce</li>
+<li>Jira</li>
+<li>Hansoft</li>
+</ul>
         </td>
     </tr>
 </table>
 
-| ### Programming Languages | ### Tools |
+| Programming Languages | Tools |
 | --- | --- |
-| * C++ | * Unreal Engine 4 |
-| * C# | * Unity3D |
-| * Lua | * Git |
-| * HTML | * Perforce |
-| * CSS | * Jira |
-| | * Hansoft |
+| C++ | Unreal Engine 4 |
+| C# | Unity3D |
+| Lua | Git |
+| HTML | Perforce |
+| CSS | Jira |
+| | Hansoft |
 
 <br>
 
