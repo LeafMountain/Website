@@ -33,13 +33,27 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 ### Voice Input:
 The game uses voice input to control the game. By saying the characters name the player are able to select that character. After that the character listens for certain command such as "Go to camp" or "Pick up axe".
 
-### Survival:
-The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all.
+<!-- ### Survival:
+The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all. -->
 
-### Management:
-The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
+<!-- ### Management:
+The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character. -->
 
 <table>
+
+<tr>
+<td>
+<h3> Survival: </h3>
+<p>
+The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all.
+</p>
+</td>
+<td>
+<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif">
+</td>
+</tr>
+
+
 <tr>
 <td>
 <h3> Management: </h3>
@@ -49,9 +63,7 @@ The game features three values that each character need to keep at a desired lev
 <img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif">
 </td>
 </tr>
-</table>
 
-<table>
 <tr>
 <td>
 <h3> A Living Game: </h3>
