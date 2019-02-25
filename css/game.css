@@ -50,7 +50,7 @@
     margin: auto;
     text-align: left;
     width: 100%;
-    font-size: 120%;
+    /* font-size: 120%; */
 }
 
 .game td {
