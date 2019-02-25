@@ -52,7 +52,7 @@ I'm currently a student living in Sweden studying game programming.
 * Perforce
 * Jira
 * Hansoft
-        </td
+        </td>
     </tr>
 </table>
 
