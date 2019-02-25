@@ -5,7 +5,7 @@ meta: 'I am a game entusiast by heart and I have found my passion in life, being
 <br><br>
 I like to play around with most things within programming and I tend to gather information on pretty every topic. 
 <br><br> 
-I'm currently studying game programming at FutureGames in Stockholm Sweden.'
+Im currently studying game programming at FutureGames in Stockholm Sweden.'
 coverImg: img/alex.jpg
 logo: img/logo.png
 category: game
