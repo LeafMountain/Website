@@ -39,10 +39,10 @@ The players goal is to help the characters survive on the island by guideing the
 ### Management:
 The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
 
-### A Living Game:
 <table>
 <tr>
 <td>
+<h3> A Living Game: </h3>
 We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
 </td>
 <td>
