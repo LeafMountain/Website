@@ -19,22 +19,35 @@ roles: 'Programmer'
 ## Work in progress
 
 ### Main Tasks:
-Text to command
-"Mentoring" in component systems
+Creating the system that translates the text/voice into commands that the designers later used to create the game.
 
 ### Summary:
-Three teens. Cant do anything. Wont listen. You have to manage them. Teach them. 
+A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
 ### Gameplay:
-- Voice Input
-- Survival
-- Management
+#### Voice Input
+The game uses voice input to control the game. By saying the characters name the player are able to select that character. After that the character listens for certain command such as "Go to camp" or "Pick up axe".
 
-- Ownership
-- Fun?
+#### Survival
+The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all.
+
+#### Management
+The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
+
+#### A Living Game
+We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
+
+#### Ownership
+We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
+
+#### Humor
+placeholde
 
 ### Post:
-- Voice Input
+
+One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Ofcourse speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
+
+Another challenge was the way we wanted the game to be experienced vs the way people interacted with the game. We wanted the player to try and communicate with the people by using different phrases which the player would find on its own. But with the feedback we got it was obvious that this was not a very fun way to experience this game. By adding a more extensive tutorial we believe we got a good balance between knowing the basic command while still throwing in some other "secret" phrases and keywords.
 
 <br>
 
