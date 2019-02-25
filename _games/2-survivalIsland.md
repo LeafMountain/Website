@@ -57,3 +57,20 @@ Another challenge was the way we wanted the game to be experienced vs the way pe
 <!-- <center>
 <iframe width="80%" height="500" src="https://www.youtube.com/embed/aeAqtWXhf4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center> -->
+
+## Acknowledgement
+
+* Folke Ströving Nielsen - Programmer
+* Johan Andersson - Programmer
+
+* Bruno Brito - Game Designer
+* Daniel Nyberg - Game Designer
+* Andreas Tobiasson- Game Designer
+
+* Vilhelm Lindroos- 3D Artist
+* Tony Högye - 3D Artist
+* Nomi Bontegard - 3D Artist
+
+* Johannes Ekholm - 2D Artist
+* Beatrice Karlsson - 2D Artist
+* Oneal Priyanto - 2D Artist
