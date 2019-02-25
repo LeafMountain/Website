@@ -24,6 +24,8 @@ Creating the system that translates the text/voice into commands that the design
 ### Summary:
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
+![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/Robintostronk.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseBerries.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif) |
+
 ## Gameplay
 
 ### Voice Input:
@@ -31,7 +33,6 @@ The game uses voice input to control the game. By saying the characters name the
 
 ### Survival:
 The players goal is to help the characters survive on the island by guideing them. By telling them what to do the characters can collect, feed and move to locations that will help them survive. Part of the challenge is getting them to listen, they are teenagears after all.
-![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif)
 
 ### Management:
 The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
