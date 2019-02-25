@@ -34,6 +34,9 @@ The game uses voice input to control the game. By saying the characters name the
 </td>
 </tr>
 
+</table>
+<table>
+
 <tr>
 <td>
 <h3> Survival: </h3>
@@ -42,9 +45,12 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" width="178" height="100">
+<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" height="200">
 </td>
 </tr>
+
+</table>
+<table>
 
 <tr>
 <td>
@@ -55,6 +61,9 @@ We want to give the player the ability to make the game their own adventure. By 
 </td>
 </tr>
 
+</table>
+<table>
+
 <tr>
 <td>
 <h3> Management: </h3>
@@ -63,9 +72,12 @@ The game features three values that each character need to keep at a desired lev
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="178" height="100">
+<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" height="200">
 </td>
 </tr>
+
+</table>
+<table>
 
 <tr>
 <td>
@@ -76,6 +88,9 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </td>
 </tr>
 
+</table>
+<table>
+
 <tr>
 <td>
 <h3> A Living Game: </h3>
@@ -84,7 +99,7 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" width="170" height="100">
+<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" height="200">
 <!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
