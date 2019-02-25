@@ -49,6 +49,9 @@ The players goal is to help the characters survive on the island by guideing the
 <p>
 We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
 </p>
+
+<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="356" height="200" aligh="right">
+
 </tr>
 
 <tr>
