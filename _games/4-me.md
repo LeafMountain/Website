@@ -33,12 +33,17 @@ When I was younger I started developing in HTML and made a few personal websites
 
 I'm currently a student living in Sweden studying game programming.
 
+<table>
+    <tr>
+        <td>
 ### Programming Languages
 * C++
 * C#
 * Lua
 * HTML
 * CSS
+        </td>
+        <td>
 
 ### Tools
 * Unreal Engine 4
@@ -47,7 +52,8 @@ I'm currently a student living in Sweden studying game programming.
 * Perforce
 * Jira
 * Hansoft
-
+        </td
+    </tr>
 <br>
 
 
