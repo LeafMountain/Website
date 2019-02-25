@@ -44,6 +44,12 @@ The players goal is to help the characters survive on the island by guideing the
 </td>
 </tr>
 
+<tr>
+<h3> Ownership: </h3>
+<p>
+We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
+</p>
+</tr>
 
 <tr>
 <td>
@@ -55,6 +61,13 @@ The game features three values that each character need to keep at a desired lev
 <td>
 <img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="356" height="200">
 </td>
+</tr>
+
+<tr>
+<h3> A Living Game: </h3>
+<p>
+We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
+</p>
 </tr>
 
 <tr>
@@ -72,11 +85,7 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </table>
 
 
-### A Living Game: 
-We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
 
-### Ownership:
-We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
 
 ## Post
 
