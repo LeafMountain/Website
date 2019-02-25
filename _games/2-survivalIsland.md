@@ -24,7 +24,9 @@ Creating the system that translates the text/voice into commands that the design
 ### Summary:
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
-![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/Robintostronk.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseBerries.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif) |
+![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/Robintostronk.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseBerries.gif) | 
+
+| ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridtostronk.gif) | ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/punchastrid.gif) |
 
 ## Gameplay
 
