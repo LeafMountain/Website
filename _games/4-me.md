@@ -54,6 +54,17 @@ I'm currently a student living in Sweden studying game programming.
 * Hansoft
         </td
     </tr>
+</table>
+
+| ### Programming Languages | ### Tools
+| --- | --- |
+| * C++ | * Unreal Engine 4 |
+| * C# | * Unity3D |
+| * Lua | * Git |
+| * HTML | * Perforce |
+| * CSS | * Jira |
+| | * Hansoft |
+
 <br>
 
 
