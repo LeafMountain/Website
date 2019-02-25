@@ -69,6 +69,12 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </tr>
 </table>
 
+
+### A Living Game: 
+We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
+
+<img align="right" width="200" height="200" src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif">
+
 ### Ownership:
 We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
 
