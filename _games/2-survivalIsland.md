@@ -28,7 +28,7 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 
 <table>
 <tr>
-### Voice Input:
+<h3> Voice Input: </h3>
 The game uses voice input to control the game. By saying the characters name the player are able to select that character. After that the character listens for certain command such as "Go to camp" or "Pick up axe".
 </tr>
 
