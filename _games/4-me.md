@@ -45,8 +45,8 @@ I'm currently a student living in Sweden studying game programming.
                 <li>CSS</li>
             </ul>
         </td>
-    </tr>
-    <tr>
+    <!-- </tr>
+    <tr> -->
         <td>
             <h3> Tools </h3>
             <ul>
