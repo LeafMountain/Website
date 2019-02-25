@@ -40,7 +40,7 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" width="356" height="200">
 </td>
 </tr>
 
@@ -48,20 +48,24 @@ The players goal is to help the characters survive on the island by guideing the
 <tr>
 <td>
 <h3> Management: </h3>
+<p>
 The game features three values that each character need to keep at a desired level. Each character has Hunger, Temperature and Comfort. Hunger slowly decreses and the character needs to eat to refill this value. Temperature is the temperature of the character which is affected by the weather, water and nearby heatsources. The final value is Comfort which controls the feelings of the character.
+</p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="356" height="200">
 </td>
 </tr>
 
 <tr>
 <td>
 <h3> A Living Game: </h3>
+<p>
 We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
+</p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif"  height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" width="356" height="200">
 <!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
