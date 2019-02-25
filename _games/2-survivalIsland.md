@@ -40,7 +40,7 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif">
+<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" height="200">
 </td>
 </tr>
 
@@ -61,7 +61,7 @@ The game features three values that each character need to keep at a desired lev
 We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif">
+<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif"  height="200">
 <!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
