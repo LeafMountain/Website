@@ -43,12 +43,13 @@ I'm currently a student living in Sweden studying game programming.
                 <li>Lua</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>PHP</li>
             </ul>
         </td>
     <!-- </tr>
     <tr> -->
         <td>
-            <h3> Tools </h3>
+            <h3> Development Tools </h3>
             <ul>
                 <li>Unreal Engine 4</li>
                 <li>Unity3D</li>
