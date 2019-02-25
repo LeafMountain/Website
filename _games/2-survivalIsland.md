@@ -41,10 +41,10 @@ We want the people to feel more alive. By adding the ability for them to have fe
 ### Ownership:
 We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
 
-### Humor
+### Humor:
 placeholde
 
-### Post:
+#### Post
 
 One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Ofcourse speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
 
@@ -62,15 +62,12 @@ Another challenge was the way we wanted the game to be experienced vs the way pe
 
 * Folke Ströving Nielsen - Programmer
 * Johan Andersson - Programmer
-
 * Bruno Brito - Game Designer
 * Daniel Nyberg - Game Designer
-* Andreas Tobiasson- Game Designer
-
-* Vilhelm Lindroos- 3D Artist
+* Andreas Tobiasson - Game Designer
+* Vilhelm Lindroos - 3D Artist
 * Tony Högye - 3D Artist
 * Nomi Bontegard - 3D Artist
-
 * Johannes Ekholm - 2D Artist
 * Beatrice Karlsson - 2D Artist
 * Oneal Priyanto - 2D Artist
