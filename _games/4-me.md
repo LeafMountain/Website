@@ -36,26 +36,27 @@ I'm currently a student living in Sweden studying game programming.
 <table>
     <tr>
         <td>
-### Programming Languages
-* C++
-* C#
-* Lua
-* HTML
-* CSS
+            <h3> Programming Languages </h3>
+            <ul>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Lua</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
         </td>
     </tr>
     <tr>
         <td>
-
-<h3> Tools </h3>
-<ul>
-<li>Unreal Engine 4</li>
-<li>Unity3D</li>
-<li>Git</li>
-<li>Perforce</li>
-<li>Jira</li>
-<li>Hansoft</li>
-</ul>
+            <h3> Tools </h3>
+            <ul>
+                <li>Unreal Engine 4</li>
+                <li>Unity3D</li>
+                <li>Git</li>
+                <li>Perforce</li>
+                <li>Jira</li>
+                <li>Hansoft</li>
+            </ul>
         </td>
     </tr>
 </table>
