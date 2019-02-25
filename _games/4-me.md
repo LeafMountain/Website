@@ -51,7 +51,7 @@ I'm currently a student living in Sweden studying game programming.
 <br>
 
 
-## EXPERIENCES
+## EXPERIENCE
 
 * ### FUTUREGAMES GAME PROGRAMMER
 #### 2018 - Present <br>
