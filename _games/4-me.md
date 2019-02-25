@@ -62,7 +62,7 @@ I'm currently a student living in Sweden studying game programming.
     </tr>
 </table>
 
-| Programming Languages | Tools |
+| Programming Languages | Development Tools |
 | :---: | :---: |
 | C++ | Unreal Engine 4 |
 | C# | Unity3D |
