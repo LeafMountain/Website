@@ -28,8 +28,10 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 
 <table>
 <tr>
+<td>
 <h3> Voice Input: </h3>
 The game uses voice input to control the game. By saying the characters name the player are able to select that character. After that the character listens for certain command such as "Go to camp" or "Pick up axe".
+</td>
 </tr>
 
 <tr>
@@ -40,18 +42,17 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" width="356" height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" width="178" height="100">
 </td>
 </tr>
 
 <tr>
+<td>
 <h3> Ownership: </h3>
 <p>
 We want to give the player the ability to make the game their own adventure. By letting the player build up their own camp the player will be able to create their own story.
 </p>
-
-<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="356" height="200" aligh="right">
-
+</td>
 </tr>
 
 <tr>
@@ -62,15 +63,17 @@ The game features three values that each character need to keep at a desired lev
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="356" height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" width="178" height="100">
 </td>
 </tr>
 
 <tr>
+<td>
 <h3> A Living Game: </h3>
 <p>
 We want the people to feel more alive. By adding the ability for them to have feelings towords different beings on the island. This makes them interact with each other in different ways.
 </p>
+</td>
 </tr>
 
 <tr>
@@ -81,13 +84,11 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" width="356" height="200">
+<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" width="170" height="100">
 <!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
 </table>
-
-
 
 
 ## Post
