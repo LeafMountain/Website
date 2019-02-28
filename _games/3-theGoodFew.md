@@ -19,6 +19,7 @@ duration: '2'
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
+github: 'https://github.com/LeafMountain/TheGoodFew'
 ---
 
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
