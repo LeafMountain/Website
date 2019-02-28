@@ -23,7 +23,7 @@ My main task for this project was to create the system that translates text into
 <br><br>
 <a class="button" href="https://github.com/LeafMountain/RestAshored">Command System Code</a>
 <a class="button" href="https://github.com/LeafMountain/RestAshored">Command Listener Code</a>
-<br>
+<br><br>
 
 I'm also a big supporter of a component based system and were a big part of planning the architechture of the game. The reason we picked this architechture is to give the designers the freedom to create the game they wanted.
 
