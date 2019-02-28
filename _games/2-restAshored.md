@@ -1,9 +1,7 @@
 ---
 layout: game
 title: 'Rest Ashored'
-meta: 'This game is still being developed and might be missing some elements like proper logo and final version of ingame assets.
-<br><br>
-A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
+meta: 'A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
 coverImg: img/restAshored.png
 logo: img/restAshoredLogo.png
 category: game
@@ -104,7 +102,6 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </td>
 <td>
 <img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="200">
-<!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
 </table>
