@@ -21,8 +21,7 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 ## My Contributions
 My main task for this project was to create the system that translates text into commands the designers can use. The idea is that this system takes "natural" phrases and extracts keywords, checks the order and them creates a command for the character to act upon. Since the voice input parses voice into text, both keyboard and voice input made it possible to use this system.
 <br><br>
-<a class="button" href="https://github.com/LeafMountain/RestAshored">Command System Code</a>
-<a class="button" href="https://github.com/LeafMountain/RestAshored">Command Listener Code</a>
+<a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem">Command System</a>
 <br><br>
 
 I'm also a big supporter of a component based system and were a big part of planning the architechture of the game. The reason we picked this architechture is to give the designers the freedom to create the game they wanted.
