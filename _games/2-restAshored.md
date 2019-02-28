@@ -15,10 +15,10 @@ languages: C++
 roles: 'Programmer'
 github: 'https://github.com/LeafMountain/RestAshored'
 ---
-## Summary:
+## Summary
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
-## My Contributions:
+## My Contributions
 My main task for this project was to create the system that translates text into commands the designers can use. The idea is that this system takes "natural" phrases and extracts keywords, checks the order and them creates a command for the character to act upon. Since the voice input parses voice into text, both keyboard and voice input made it possible to use this system.
 
 I'm also a big supporter of a component based system and were a big part of planning the architechture of the game. The reason we picked this architechture is to give the designers the freedom to create the game they wanted.
