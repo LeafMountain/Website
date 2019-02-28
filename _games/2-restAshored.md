@@ -1,11 +1,11 @@
 ---
 layout: game
-title: 'Survival Island'
+title: 'Rest Ashored'
 meta: 'This game is still being developed and might be missing some elements like proper logo and final version of ingame assets.
 <br><br>
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
-coverImg: img/survivalIsland.png
-logo: img/survivalIslandLogo.png
+coverImg: img/restAshored.png
+logo: img/restAshoredLogo.png
 category: game
 tags:
     - C++
@@ -45,7 +45,7 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/RobinUseStone.gif" height="200">
+<img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif" height="200">
 </td>
 </tr>
 
@@ -72,7 +72,7 @@ The game features three values that each character need to keep at a desired lev
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/punchastrid.gif" height="200">
+<img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="200">
 </td>
 </tr>
 
@@ -99,7 +99,7 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif" height="200">
+<img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="200">
 <!-- ![Image of Astrid and dog getting warm]({{site.baseurl}}/img/SurvivalIsland/astridgetwarm.gif) -->
 </td>
 </tr>
