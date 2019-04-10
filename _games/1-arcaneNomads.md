@@ -37,7 +37,7 @@ My contributions:
 ## Some Pre-Alpha Stuff
 
 <center>
-This is a small demo of the current AI in the game.
+This is a small demo of the current AI in the game. <br>
 
 <iframe src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="405px" width="720px"></iframe>
 </center>
