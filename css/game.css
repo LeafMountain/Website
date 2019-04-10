@@ -69,7 +69,7 @@
     width: 100px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1081px) {
     .game #content {
         width: 95%;
     }
