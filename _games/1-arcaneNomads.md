@@ -12,9 +12,8 @@ tags:
     - C#
     - Unity3D
     - Lead Programmer
-    - 2 months
     - Under Development
-duration: '2'
+duration: 'Under Development'
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
