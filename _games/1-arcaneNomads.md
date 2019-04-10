@@ -36,9 +36,7 @@ My contributions:
 
 ## Some Pre-Alpha Stuff
 
-<iframe src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="320px" width="480px"></iframe>
-
-<iframe src="https://www.google.com/" height="320px" width="480px"></iframe>
+<iframe src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="320px" width="100%"></iframe>
 
 <!-- ## Look and Feel (Pre-Alpha) -->
 <!-- 
