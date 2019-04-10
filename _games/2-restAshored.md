@@ -51,7 +51,7 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif" height="200px" width="300px">
+<img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif" height="250px" width="400px">
 </td>
 </tr>
 
@@ -78,7 +78,7 @@ The game features three values that each character need to keep at a desired lev
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="200px" width="300px">
+<img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="250px" width="400px">
 </td>
 </tr>
 
@@ -105,7 +105,7 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="200px" width="300px">
+<img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="250px" width="400px">
 </td>
 </tr>
 </table>
