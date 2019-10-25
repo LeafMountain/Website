@@ -1,6 +1,6 @@
 ---
 layout: game
-title: 'Rest Ashored'
+title: 'Rest A-shored'
 meta: 'A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
 coverImg: img/restAshored.png
 logo: img/restAshoredLogo.png
