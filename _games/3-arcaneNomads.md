@@ -30,6 +30,6 @@ Player input
 ## Boid AI
 <center>
 
-<iframe src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="405px" width="720px"></iframe>
+<iframe src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="405px" width="720px"></iframe><br/>
 <i>This is a small demo of the current AI in the game.</i>
 </center>
