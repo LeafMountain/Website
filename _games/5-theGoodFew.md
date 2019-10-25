@@ -22,22 +22,21 @@ roles: 'Tech Lead / Lead Programmer'
 github: 'https://github.com/LeafMountain/TheGoodFew'
 ---
 
+## Description
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
 
 Featuring a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
-My role in this project is:
-* Main and only programmer
-* Unity guide
-
-This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions.
-
-<br>
-
-## Trailer (SGA)
-
 <center>
 <iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions.
 </center>
+
+## Components
+Since I was the sole programmer on this project, I had to create simple components that other team members could use to build gameplay.
+
+
+## Final Thoughts
+We had a huge scope with several different games integrated into one. In the end we created the core game play, the combat.
