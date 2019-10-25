@@ -2,8 +2,8 @@
 layout: game
 title: 'Dstny Hotline'
 meta: 'Dating App for iOS and Android.'
-coverImg: img/dstnyHotline/cover.png
-logo: img/dstnyHotline/logo.png
+coverImg: img/DstnyHotline/cover.png
+logo: img/DstnyHotline/logo.svg
 category: game
 
 tags:

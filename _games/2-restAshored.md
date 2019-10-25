@@ -18,12 +18,23 @@ github: 'https://github.com/LeafMountain/RestAshored'
 ## Summary
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
-## My Contributions
-My main task for this project was to create the system that translates text into commands the designers can use. The idea is that this system takes "natural" phrases and extracts keywords, checks the order and them creates a command for the character to act upon. Since the voice input parses voice into text, both keyboard and voice input made it possible to use this system.
+## The Parsing System
+My main task for this project was to create the system that translates text into commands the designers can use. 
+
+We used an external voice to text plugin. To be able to use the input we needed a parsing system. I tried to emulate the action a user would do if he was using a mouse. The player first selects a unit by saying its name. This connects the unit's listener to the voice input system. Then the player is expected to issue a command with the use of a verb. After the verb has been said the parser looks for an object. This will trigger certain events later down the line that the designer can use to create the desired behavior.
+
+ILLUSTRATION HERE!!
+
+[Astrid], [go to] [tent]. 
+[Beatrice], [pick up] [fishing rod]. 
+[Beatrice], [give] [fishing rod] to [Astrid]. (Units are registered as Names and Objects). 
+
 <br><br>
 <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem">Command System</a>
 <br><br>
 
+
+## Components
 I'm also a big supporter of a component based system and were a big part of planning the architechture of the game. The reason we picked this architechture is to give the designers the freedom to create the game they wanted.
 
 Me and my programmer teammates worked close with the designers to provide the functionality the designers needed to create the player experience they had envisioned. This worked very well and made it possible to iterate on the game in an effective manner.
