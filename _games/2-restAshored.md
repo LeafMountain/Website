@@ -19,7 +19,7 @@ github: 'https://github.com/LeafMountain/RestAshored'
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/watch?v=qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
 <i> The intro cinematic to the game. </i>
 </center>
 

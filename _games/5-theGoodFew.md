@@ -31,7 +31,7 @@ Featuring a class and sub-class-based leveling system, an upgradeable player hub
 
 <center>
 <iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
-This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions.
+<i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
 </center>
 
 ## Components
