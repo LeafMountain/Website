@@ -1,18 +1,14 @@
 ---
 layout: game
 title: 'Arcane Nomads'
-meta: 'A Third-Person Survival Shooter set in a dark post-apocalyptic zombie ridden world. 
-<br><br>
-Your goal as survivors is simply surviving, you cannot stay in only one place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.'
-coverImg: img/arcaneNomads.png
-logo: img/arcaneNomadsLogo.png
+meta: 'Your goal as survivors is simply surviving, you cannot stay in only one place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.'
+coverImg: img/ArcaneNomads/cover.png
+logo: img/ArcaneNomads/logo.png
 category: game
-
 tags:
     - C#
     - Unity3D
     - Lead Programmer
-    - Under Development
 duration: 'Under Development'
 engine: Unity3D
 languages: C#
