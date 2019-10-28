@@ -34,16 +34,19 @@ We used an external voice to text plugin. To be able to use the input we needed 
 
 <table>
     <tr>
-        <td>
-            HEllo
+        <td style="background: #8c8c8c">
+            Astrid, go to tent.
         </td>
     </tr>
     <tr>
-        <td>
-            HEllo
+        <td style="background: #00FF00">
+            Name: Astrid
         </td>
-        <td>
-            HEllo
+        <td style="background: #0000FF">
+            Action: Go To
+        </td>
+        <td style="background: #FF0000">
+            Object: Tent
         </td>
     </tr>
 </table>
