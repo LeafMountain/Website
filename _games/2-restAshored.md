@@ -32,20 +32,20 @@ We used an external voice to text plugin. To be able to use the input we needed 
 
 ![alt text]({{site.baseurl}}/img/RestAshored/example1.png "Logo Title Text 1")
 
-<table>
+<table style="text-align:center" width="80%">
     <tr>
-        <td style="background: #8c8c8c">
-            Astrid, go to tent.
+        <td style="background: #8c8c8c; border-radius: 5px;" colspan="3">
+                Astrid, go to tent.
         </td>
     </tr>
     <tr>
-        <td style="background: #00FF00">
+        <td style="background: #f6d443; border-radius: 5px;">
             Name: Astrid
         </td>
-        <td style="background: #0000FF">
+        <td style="background: #00724e; border-radius: 5px;">
             Action: Go To
         </td>
-        <td style="background: #FF0000">
+        <td style="background: #6495ed; border-radius: 5px;">
             Object: Tent
         </td>
     </tr>
