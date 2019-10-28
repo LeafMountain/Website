@@ -45,18 +45,18 @@ header #branding {
 header #logo {
     height: 50px;
     width: auto;
-    grid-area: logo;
+    /* grid-area: logo; */
 }
 
 header #name {
     justify-self: end;
     text-align: right;
-    grid-area: name;
+    /* grid-area: name; */
 }
 
 header #title {
     justify-self: start;
-    grid-area: title;
+    /* grid-area: title; */
 }
 
 /* @media (max-width: 1081px) {
