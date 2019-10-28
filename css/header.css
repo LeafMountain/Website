@@ -45,13 +45,34 @@ header #branding {
 header #logo {
     height: 50px;
     width: auto;
+    grid-area: logo;
 }
 
 header #name {
     justify-self: end;
     text-align: right;
+    grid-area: name;
 }
 
 header #title {
     justify-self: start;
+    grid-area: title;
+}
+
+@media (max-width: 1081px) {
+    header #branding {
+        grid-template-areas: 
+        'logo name'
+        'logo title';
+        grid-gap: 10px;
+        /* align-items: left; */
+        /* border-radius: 3px; */
+        /* width: max-content; */
+        /* margin: auto; */
+    }
+
+    header #name {
+        justify-self: left;
+        text-align: left;
+    }
 }

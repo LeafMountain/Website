@@ -93,4 +93,8 @@ section.showcase #button:hover {
     section.showcase {
         grid-template-columns: 1fr;
     }
+
+    section.showcase p {
+        height: inherit;
+    }
 }
