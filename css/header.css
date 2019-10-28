@@ -38,7 +38,7 @@ header #branding {
     grid-template-columns: 1fr auto 1fr;
     grid-gap: 10px;
     align-items: center;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     width: max-content;
     margin: auto;
 }
@@ -66,15 +66,24 @@ header #title {
         grid-template-areas: 
         'logo name'
         'logo title';
-        grid-gap: 10px;
-        /* align-items: left; */
+        grid-gap: 0px;
+        /*align-items: left; */
         /* border-radius: 3px; */
         /* width: max-content; */
         /* margin: auto; */
+        width: 100%;
+        /*background: red;*/
     }
 
     header #name {
-        justify-self: left;
-        text-align: left;
+        justify-self: right;
+        text-align: right;
+        padding: 0px;
+    }
+
+    header #title {
+        justify-self: right;
+        text-align: right;
+        padding: 0px;        
     }
 }
