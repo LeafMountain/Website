@@ -28,8 +28,7 @@ section.showcase #overlay {
     height: 100%;
     background: var(--glass-color-dark);
     padding: 10%;
-    transition: all 0.2s ease-in-out;
-    
+    transition: all 0.2s ease-in-out;    
 }
 
 section.showcase #overlay:hover {
@@ -53,6 +52,7 @@ section.showcase #description {
     height: min-content;
     margin-top: auto;
     margin-bottom: auto;
+    overflow: hidden;
 }
 
 section.showcase p {
