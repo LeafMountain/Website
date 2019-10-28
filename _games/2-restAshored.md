@@ -18,17 +18,19 @@ github: 'https://github.com/LeafMountain/RestAshored'
 ## The Idea
 A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
-<br/><center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+<br/>
+<center>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 <i> The intro cinematic to the game. </i>
 </center>
 
 ## The Parsing System
-My main task for this project was to create the system that translates text into commands the designers can use. 
+My main task for this project was to create the system that translates text into commands the designers can use.
 
 We used an external voice to text plugin. To be able to use the input we needed a parsing system. I tried to emulate the action a user would do if he was using a mouse. The player first selects a unit by saying its name. This connects the unit's listener to the voice input system. Then the player is expected to issue a command with the use of a verb. After the verb has been said the parser looks for an object. This will trigger certain events later down the line that the designer can use to create the desired behavior.
 
-![alt text]("{{site.baseurl}}/img/RestAshored/example1.png" "Logo Title Text 1")
+<!-- ![alt text]("{{site.baseurl}}/img/RestAshored/example1.png" "Logo Title Text 1") -->
 
 [Astrid], [go to] [tent].
 
