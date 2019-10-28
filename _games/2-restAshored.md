@@ -38,13 +38,13 @@ We used an external voice to text plugin. To be able to use the input we needed 
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b> Astrid
+            <b>Name:</b><br> Astrid
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b> Go To
+            <b>Action:</b><br> Go To
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b> Tent
+            <b>Object:</b><br> Tent
         </td>
     </tr>
 </table>
@@ -59,13 +59,13 @@ We used an external voice to text plugin. To be able to use the input we needed 
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b> Beatrice
+            <b>Name:</b><br> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b> Pick Up
+            <b>Action:</b><br> Pick Up
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b> Fishing Rod
+            <b>Object:</b><br> Fishing Rod
         </td>
     </tr>
 </table>
@@ -74,22 +74,22 @@ We used an external voice to text plugin. To be able to use the input we needed 
 
 <table style="text-align:center; width: 80%;">
     <tr>
-        <td style="background: #8c8c8c; border-radius: 3px; font-size:150%;" colspan="3">
+        <td style="background: #8c8c8c; border-radius: 3px; font-size:150%;" colspan="4">
                 Beatrice, give fishing rod to Astrid.
         </td>
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b> Beatrice
+            <b>Name:</b><br> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b> Give
+            <b>Action:</b><br> Give
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b> Fishing Rod
+            <b>Object:</b><br> Fishing Rod
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>2nd Object:</b> Astrid
+            <b>2nd Object:</b><br> Astrid
         </td>
     </tr>
 </table>
