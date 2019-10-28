@@ -30,26 +30,70 @@ My main task for this project was to create the system that translates text into
 
 We used an external voice to text plugin. To be able to use the input we needed a parsing system. I tried to emulate the action a user would do if he was using a mouse. The player first selects a unit by saying its name. This connects the unit's listener to the voice input system. Then the player is expected to issue a command with the use of a verb. After the verb has been said the parser looks for an object. This will trigger certain events later down the line that the designer can use to create the desired behavior.
 
-![alt text]({{site.baseurl}}/img/RestAshored/example1.png "Logo Title Text 1")
-
 <table style="text-align:center; width: 80%;">
     <tr>
-        <td style="background: #8c8c8c; border-radius: 5px;" colspan="3">
+        <td style="background: #8c8c8c; border-radius: 3px; font-size:150%;" colspan="3">
                 Astrid, go to tent.
         </td>
     </tr>
     <tr>
-        <td style="background: #f6d443; border-radius: 5px;">
+        <td style="background: #f6d443; border-radius: 3px;">
             <b>Name:</b> Astrid
         </td>
-        <td style="background: #00724e; border-radius: 5px;">
+        <td style="background: #00724e; border-radius: 3px;">
             <b>Action:</b> Go To
         </td>
-        <td style="background: #6495ed; border-radius: 5px;">
+        <td style="background: #6495ed; border-radius: 3px;">
             <b>Object:</b> Tent
         </td>
     </tr>
 </table>
+
+<br>
+
+<table style="text-align:center; width: 80%;">
+    <tr>
+        <td style="background: #8c8c8c; border-radius: 3px; font-size:150%;" colspan="3">
+                Beatrice, pick up fishing rod.
+        </td>
+    </tr>
+    <tr>
+        <td style="background: #f6d443; border-radius: 3px;">
+            <b>Name:</b> Beatrice
+        </td>
+        <td style="background: #00724e; border-radius: 3px;">
+            <b>Action:</b> Pick Up
+        </td>
+        <td style="background: #6495ed; border-radius: 3px;">
+            <b>Object:</b> Fishing Rod
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<table style="text-align:center; width: 80%;">
+    <tr>
+        <td style="background: #8c8c8c; border-radius: 3px; font-size:150%;" colspan="3">
+                Beatrice, give fishing rod to Astrid.
+        </td>
+    </tr>
+    <tr>
+        <td style="background: #f6d443; border-radius: 3px;">
+            <b>Name:</b> Beatrice
+        </td>
+        <td style="background: #00724e; border-radius: 3px;">
+            <b>Action:</b> Give
+        </td>
+        <td style="background: #6495ed; border-radius: 3px;">
+            <b>Object:</b> Fishing Rod
+        </td>
+        <td style="background: #6495ed; border-radius: 3px;">
+            <b>2nd Object:</b> Astrid
+        </td>
+    </tr>
+</table>
+<i>Units are registered at objects as well to let other units interact with them.</i>
 
 [Astrid], [go to] [tent].
 
