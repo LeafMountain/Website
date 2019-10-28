@@ -34,6 +34,7 @@ header a {
 
 header #branding {
     display: grid;
+    grid-template-areas: name logo title;
     grid-template-columns: 1fr auto 1fr;
     grid-gap: 10px;
     align-items: center;
@@ -45,21 +46,21 @@ header #branding {
 header #logo {
     height: 50px;
     width: auto;
-    /* grid-area: logo; */
+    grid-area: logo;
 }
 
 header #name {
     justify-self: end;
     text-align: right;
-    /* grid-area: name; */
+    grid-area: name;
 }
 
 header #title {
     justify-self: start;
-    /* grid-area: title; */
+    grid-area: title;
 }
 
-/* @media (max-width: 1081px) {
+@media (max-width: 1081px) {
     header #branding {
         display: grid;
         grid-template-areas: 
@@ -70,10 +71,10 @@ header #title {
         /* border-radius: 3px; */
         /* width: max-content; */
         /* margin: auto; */
-    /* }
+    }
 
     header #name {
         justify-self: left;
         text-align: left;
     }
-} */
+}
