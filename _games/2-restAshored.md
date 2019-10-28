@@ -30,7 +30,7 @@ My main task for this project was to create the system that translates text into
 
 We used an external voice to text plugin. To be able to use the input we needed a parsing system. I tried to emulate the action a user would do if he was using a mouse. The player first selects a unit by saying its name. This connects the unit's listener to the voice input system. Then the player is expected to issue a command with the use of a verb. After the verb has been said the parser looks for an object. This will trigger certain events later down the line that the designer can use to create the desired behavior.
 
-<!-- ![alt text]("{{site.baseurl}}/img/RestAshored/example1.png" "Logo Title Text 1") -->
+![alt text]("{{site.baseurl}}/img/RestAshored/example1.png" "Logo Title Text 1")
 
 [Astrid], [go to] [tent].
 

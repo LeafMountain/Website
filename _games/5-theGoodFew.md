@@ -7,8 +7,8 @@ meta: 'The Good Few is a colorful turn-based role-playing game sprinkled with ci
 <br>
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.'
-coverImg: img/theGoodFew.png
-logo: img/theGoodFewLogo.png
+coverImg: img/TheGoodFew/cover.png
+logo: img/TheGoodFew/logo.png
 category: game
 tags:
     - C#
@@ -29,8 +29,10 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 
 Featuring a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
-<br/><center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
+<br>
+<center>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br>
 <i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
 </center>
 
