@@ -32,7 +32,7 @@ We used an external voice to text plugin. To be able to use the input we needed 
 
 ![alt text]({{site.baseurl}}/img/RestAshored/example1.png "Logo Title Text 1")
 
-<table style="text-align:center" width="80%">
+<table style="text-align:center: width: 80%;">
     <tr>
         <td style="background: #8c8c8c; border-radius: 5px;" colspan="3">
                 Astrid, go to tent.
