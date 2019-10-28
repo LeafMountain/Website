@@ -59,8 +59,9 @@ header #title {
     grid-area: title;
 }
 
-@media (max-width: 1081px) {
+/* @media (max-width: 1081px) {
     header #branding {
+        display: grid;
         grid-template-areas: 
         'logo name'
         'logo title';
@@ -75,4 +76,4 @@ header #title {
         justify-self: left;
         text-align: left;
     }
-}
+} */
