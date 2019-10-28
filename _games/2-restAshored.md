@@ -26,12 +26,10 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 </center>
 
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/watch?v=4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 <i> One of the developers playing the game. </i>
 </center>
-
-
 
 ## The Parsing System
 My main task for this project was to create the system that translates text into commands the designers can use.
