@@ -25,6 +25,14 @@ A group of teenagears are stranded on an island and have no idea how to survive.
 <i> The intro cinematic to the game. </i>
 </center>
 
+<center>
+<iframe width="80%" height="500" src="https://www.youtube.com/watch?v=4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
+<i> One of the developers playing the game. </i>
+</center>
+
+
+
 ## The Parsing System
 My main task for this project was to create the system that translates text into commands the designers can use.
 
@@ -93,14 +101,10 @@ We used an external voice to text plugin. To be able to use the input we needed 
         </td>
     </tr>
 </table>
+
+<center>
 <i>Units are registered at objects as well to let other units interact with them.</i>
-
-[Astrid], [go to] [tent].
-
-[Beatrice], [pick up] [fishing rod]. 
-
-[Beatrice], [give] [fishing rod] to [Astrid]. (Units are registered as Names and Objects). 
-
+</center>
 
 <br><br>
 <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem">Command System</a>
