@@ -15,7 +15,7 @@
     width: 60%;
     height: 100%;
     color: var(--text-color);
-    padding: 50px;
+    /* padding: 50px; */
     padding-top: 80px;
     margin: auto;
     
@@ -35,7 +35,6 @@
     display: inline;
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
 
 .game h1 {
@@ -71,7 +70,7 @@
 
 @media (max-width: 1081px) {
     .game #content {
-        width: 95%;
+        width: 100%;
     }
 
     .game #title {
