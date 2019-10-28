@@ -92,9 +92,12 @@ section.showcase #button:hover {
 @media (max-width: 1081px) {
     section.showcase {
         grid-template-columns: 1fr;
+        padding-top: 80px;
     }
 
     section.showcase p {
         height: inherit;
     }
+
+
 }
