@@ -1,40 +1,45 @@
 ---
 layout: game
 title: 'Rest A-shored'
-meta: 'A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
+meta: 'A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
 coverImg: img/RestAshored/cover.png
 logo: img/RestAshored/logo.png
 category: game
 tags:
     - C++
-    - Unreal Engine 4
-    - 4 weeks
-duration: '1'
+    - UE4
+duration: '1' #4 weeks
 engine: 'Unreal Engine 4'
 languages: C++
 roles: 'Programmer'
 github: 'https://github.com/LeafMountain/RestAshored'
 ---
 ## The Idea
-A group of teenagears are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
+A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 
 <br/>
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 <i> The intro cinematic to the game. </i>
 </center>
 
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 <i> One of the developers playing the game. </i>
 </center>
 
 ## The Parsing System
-My main task for this project was to create the system that translates text into commands the designers can use.
+My main focus during this project was to create the system that translates text into commands the designers can use. We used an external "speech to text"-plugin called Sphinx. The output from Sphinx were the input used in the parsing system. The system tries to find out if the words are a "Name", "Action" or "Object".
 
-We used an external voice to text plugin. To be able to use the input we needed a parsing system. I tried to emulate the action a user would do if he was using a mouse. The player first selects a unit by saying its name. This connects the unit's listener to the voice input system. Then the player is expected to issue a command with the use of a verb. After the verb has been said the parser looks for an object. This will trigger certain events later down the line that the designer can use to create the desired behavior.
+* If the name is in the beginning of the sentence the unit corresponding to that name is selected (registered as a listener to the command system).
+* The next thing it looks for is an action like "pick up", "eat" or "hug".
+* The last part of the command is what to do the Action to so it tries to identify an Object.
+
+When the system have recognized the whole command it is sent out to the listener. The listener have different events that the desginers of the game could use to create the desired action in game.
+
+These are examples of some phrases that worked in the game;
 
 <table style="text-align:center; width: 80%;">
     <tr>
@@ -110,11 +115,11 @@ We used an external voice to text plugin. To be able to use the input we needed 
 
 
 ## Components
-I'm also a big supporter of a component based system and were a big part of planning the architechture of the game. The reason we picked this architechture is to give the designers the freedom to create the game they wanted.
+I'm also a big supporter of a component based system and were a big part of planning the architecture of the game. The reason we picked this architecture is to give the designers the freedom to create the game they wanted.
 
 Me and my programmer teammates worked close with the designers to provide the functionality the designers needed to create the player experience they had envisioned. This worked very well and made it possible to iterate on the game in an effective manner.
 
-Other than that I have been a part of many different systems, either by planning, helping or writing code toghether with other members of the team.
+Other than that I have been a part of many different systems, either by planning, helping or writing code together with other members of the team.
 
 <!-- ## Gameplay -->
 
@@ -198,15 +203,17 @@ We want the people to feel more alive. By adding the ability for them to have fe
 
 
 ## Final Thoughts
+The greatest hurdle during this project was to find the fun. The lesser used input method did in the end damage the game play by making it harder to control and less responsive. In the end we accepted this as a failed game, but we also recognized that this was still a fun experiment. Even though the game weren’t as fun as we hoped, some players found the game enjoyable in other ways. By just trying commands and see what happens did sometimes have a comical effect.
 
-One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Ofcourse speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
+If I was to create another similar game I would focus more on developing the idea and figuring out beforehand how the input enhances the game play, and not just include it and see it become a gimmick. 
 
-Another challenge was the way we wanted the game to be experienced vs the way people interacted with the game. We wanted the player to try and communicate with the people by using different phrases which the player would find on its own. But with the feedback we got it was obvious that this was not a very fun way to experience this game. By adding a more extensive tutorial we believe we got a good balance between knowing the basic command while still throwing in some other "secret" phrases and keywords.
+<!-- One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Of course speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
+
+Another challenge was the way we wanted the game to be experienced vs the way people interacted with the game. We wanted the player to try and communicate with the people by using different phrases which the player would find on its own. But with the feedback we got it was obvious that this was not a very fun way to experience this game. By adding a more extensive tutorial we believe we got a good balance between knowing the basic command while still throwing in some other "secret" phrases and keywords. -->
 
 
 
-
-## Acknowledgement
+<!-- ## Acknowledgement
 
 * Folke Ströving Nielsen - Programmer
 * Johan Andersson - Programmer
@@ -218,4 +225,4 @@ Another challenge was the way we wanted the game to be experienced vs the way pe
 * Nomi Bontegard - 3D Artist
 * Johannes Ekholm - 2D Artist
 * Beatrice Karlsson - 2D Artist
-* Oneal Priyanto - 2D Artist
+* Oneal Priyanto - 2D Artist -->

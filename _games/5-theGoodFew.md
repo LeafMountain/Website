@@ -1,21 +1,14 @@
 ---
 layout: game
 title: 'The Good Few'
-meta: 'The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
-
-<br>
-<br>
-
-The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.'
+meta: 'The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management. The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.'
 coverImg: img/TheGoodFew/cover.png
 logo: img/TheGoodFew/logo.png
 category: game
 tags:
     - C#
-    - Unity3D
-    - Lead Programmer
-    - 2 months
-duration: '2'
+    - Unity
+duration: '2' #2 months
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
@@ -31,7 +24,7 @@ Featuring a class and sub-class-based leveling system, an upgradeable player hub
 
 <br>
 <center>
-<iframe width="80%" height="500" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br>
 <i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
 </center>

@@ -7,12 +7,12 @@ logo: img/ArcaneNomads/logo.png
 category: game
 tags:
     - C#
-    - Unity3D
-    - Lead Programmer
-duration: 'Under Development'
+    - Unity
+duration: 'Scrapped'
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
+github: 'https://github.com/LeafMountain/ArcaneNomads'
 ---
 
 ## The Idea

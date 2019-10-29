@@ -11,11 +11,10 @@ section.showcase a {
 
 .card {
     height: 100%;
-
     background-position: center;
     background-size: cover;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -41,7 +40,7 @@ section.showcase #overlay:hover {
 section.showcase #title {
     padding: 10px;
     align-self: center;
-    font-size: 2rem;
+    font-size: 1.9rem;
     max-width: 100%;
     text-transform: uppercase;
 }
@@ -52,18 +51,21 @@ section.showcase #description {
     height: min-content;
     margin-top: auto;
     margin-bottom: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 section.showcase p {
     height: 7cm;
     text-align: center;
+    overflow: hidden;
 }
 
 section.showcase #logo {
     width: auto;
     height: 3cm;
     justify-self: center;
+    /* max-width: 70%; */
+    /* height: auto; */
 }
 
 section.showcase #button {
@@ -98,6 +100,4 @@ section.showcase #button:hover {
     section.showcase p {
         height: inherit;
     }
-
-
 }

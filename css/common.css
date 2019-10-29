@@ -180,6 +180,11 @@ img {
     animation-fill-mode: forwards;
 }
 
+.video {
+    width: 80%;
+    height: 500px;
+}
+
 @-webkit-keyframes fadein {
     from {opacity: 0;}
     to {opacity: 1;}
