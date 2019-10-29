@@ -1,0 +1,15 @@
+I"Î<p>A engine made in Vulkan. This is still a work in progress.</p>
+
+<p>Future plans:</p>
+<ul>
+  <li>Implement an ECS way of scripting for the engine</li>
+  <li>Create an example project to showcase the capabilities of the engine
+<br /></li>
+</ul>
+
+<!-- ## Look and Feel (Pre-Alpha)
+
+<center>
+<iframe width="80%" height="500" src="https://www.youtube.com/embed/aeAqtWXhf4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center> -->
+:ET

@@ -1,42 +1,30 @@
----
-layout: game
-title: 'Rest A-shored'
-meta: 'A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.'
-coverImg: img/RestAshored/cover.png
-logo: img/RestAshored/logo.png
-category: game
-tags:
-    - C++
-    - Speech-to-Text
-duration: '1' #4 weeks
-engine: 'Unreal Engine 4'
-languages: C++
-roles: 'Programmer'
-github: 'https://github.com/LeafMountain/RestAshored'
----
-<br/>
+I"#<h2 id="the-idea">The Idea</h2>
+
+<p><br /></p>
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <i> A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again. </i>
 </center>
 
-<br>
+<p><br /></p>
 
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <i> One of the developers playing the game. </i>
 </center>
 
-## The Parsing System
-My main focus during this project was to create the system that translates text into commands the designers can use. We used an external "speech to text"-plugin called Sphinx. The output from Sphinx were the input used in the parsing system. The system tries to find out if the words are a "Name", "Action" or "Object".
+<h2 id="the-parsing-system">The Parsing System</h2>
+<p>My main focus during this project was to create the system that translates text into commands the designers can use. We used an external “speech to text”-plugin called Sphinx. The output from Sphinx were the input used in the parsing system. The system tries to find out if the words are a “Name”, “Action” or “Object”.</p>
 
-* If the name is in the beginning of the sentence the unit corresponding to that name is selected (registered as a listener to the command system).
-* The next thing it looks for is an action like "pick up", "eat" or "hug".
-* The last part of the command is what to do the Action to so it tries to identify an Object.
+<ul>
+  <li>If the name is in the beginning of the sentence the unit corresponding to that name is selected (registered as a listener to the command system).</li>
+  <li>The next thing it looks for is an action like “pick up”, “eat” or “hug”.</li>
+  <li>The last part of the command is what to do the Action to so it tries to identify an Object.</li>
+</ul>
 
-When the system have recognized the whole command it is sent out to the listener. The listener have different events that the desginers of the game could use to create the desired action in game.
+<p>When the system have recognized the whole command it is sent out to the listener. The listener have different events that the desginers of the game could use to create the desired action in game.</p>
 
-These are examples of some phrases that worked in the game;
+<p>These are examples of some phrases that worked in the game;</p>
 
 <table style="text-align:center; width: 80%;">
     <tr>
@@ -46,18 +34,18 @@ These are examples of some phrases that worked in the game;
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b><br> Astrid
+            <b>Name:</b><br /> Astrid
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b><br> Go To
+            <b>Action:</b><br /> Go To
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b><br> Tent
+            <b>Object:</b><br /> Tent
         </td>
     </tr>
 </table>
 
-<br>
+<p><br /></p>
 
 <table style="text-align:center; width: 80%;">
     <tr>
@@ -67,18 +55,18 @@ These are examples of some phrases that worked in the game;
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b><br> Beatrice
+            <b>Name:</b><br /> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b><br> Pick Up
+            <b>Action:</b><br /> Pick Up
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b><br> Fishing Rod
+            <b>Object:</b><br /> Fishing Rod
         </td>
     </tr>
 </table>
 
-<br>
+<p><br /></p>
 
 <table style="text-align:center; width: 80%;">
     <tr>
@@ -88,16 +76,16 @@ These are examples of some phrases that worked in the game;
     </tr>
     <tr>
         <td style="background: #f6d443; border-radius: 3px;">
-            <b>Name:</b><br> Beatrice
+            <b>Name:</b><br /> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b><br> Give
+            <b>Action:</b><br /> Give
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>Object:</b><br> Fishing Rod
+            <b>Object:</b><br /> Fishing Rod
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
-            <b>2nd Object:</b><br> Astrid
+            <b>2nd Object:</b><br /> Astrid
         </td>
     </tr>
 </table>
@@ -106,21 +94,21 @@ These are examples of some phrases that worked in the game;
 <i>Units are registered at objects as well to let other units interact with them.</i>
 </center>
 
-<br><br>
+<p><br /><br />
 <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">Command System</a>
-<br><br>
+<br /><br /></p>
 
-## Components
-I'm a big supporter of a component based system and were a big part of planning the architecture of the game. The reason we picked this architecture is to give the designers the freedom to create the game they imagined.
+<h2 id="components">Components</h2>
+<p>I’m a big supporter of a component based system and were a big part of planning the architecture of the game. The reason we picked this architecture is to give the designers the freedom to create the game they imagined.</p>
 
-Me and my programmer teammates worked close with the designers to provide the functionality the designers needed to create the player experience they had envisioned. This worked very well and made it possible to iterate on the game in an effective manner.
+<p>Me and my programmer teammates worked close with the designers to provide the functionality the designers needed to create the player experience they had envisioned. This worked very well and made it possible to iterate on the game in an effective manner.</p>
 
-Other than that I have been a part of many different systems, either by planning, helping or writing code together with other members of the team.
+<p>Other than that I have been a part of many different systems, either by planning, helping or writing code together with other members of the team.</p>
 
-## Final Thoughts
-The greatest hurdle during this project was to find the fun. The lesser used input method did in the end damage the game play by making it harder to control and less responsive. In the end we accepted this as a failed game, but we also recognized that this was still a fun experiment. Even though the game weren’t as fun as we hoped, some players found the game enjoyable in other ways. By just trying commands and see what happens did sometimes have a comical effect.
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>The greatest hurdle during this project was to find the fun. The lesser used input method did in the end damage the game play by making it harder to control and less responsive. In the end we accepted this as a failed game, but we also recognized that this was still a fun experiment. Even though the game weren’t as fun as we hoped, some players found the game enjoyable in other ways. By just trying commands and see what happens did sometimes have a comical effect.</p>
 
-If I was to create another similar game I would focus more on developing the idea and figuring out beforehand how the input enhances the game play, and not just include it and see it become a gimmick. 
+<p>If I was to create another similar game I would focus more on developing the idea and figuring out beforehand how the input enhances the game play, and not just include it and see it become a gimmick.</p>
 
 <!-- One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Of course speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
 
@@ -147,7 +135,7 @@ The players goal is to help the characters survive on the island by guideing the
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif" height="250px" width="400px">
+<img src="/img/RestAshored/RobinUseStone.gif" height="250px" width="400px">
 </td>
 </tr>
 
@@ -174,7 +162,7 @@ The game features three values that each character need to keep at a desired lev
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="250px" width="400px">
+<img src="/img/RestAshored/punchastrid.gif" height="250px" width="400px">
 </td>
 </tr>
 
@@ -201,11 +189,10 @@ We want the people to feel more alive. By adding the ability for them to have fe
 </p>
 </td>
 <td>
-<img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="250px" width="400px">
+<img src="/img/RestAshored/astridgetwarm.gif" height="250px" width="400px">
 </td>
 </tr>
 </table> -->
-
 
 <!-- ## Acknowledgement
 
@@ -220,3 +207,4 @@ We want the people to feel more alive. By adding the ability for them to have fe
 * Johannes Ekholm - 2D Artist
 * Beatrice Karlsson - 2D Artist
 * Oneal Priyanto - 2D Artist -->
+:ET

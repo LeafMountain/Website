@@ -37,12 +37,11 @@ Using distance activated face to face video calls, you will have 60 seconds to p
 
 What happens next is up to you!”
 <br>
-*(Description extracted from https://dstnyhotline.com/ 29.10.2019)*
+<center>
+<i>(Description extracted from https://dstnyhotline.com/ 29.10.2019)</i>
+</center>
 
-
-## My work
+## My Experience
 I joined this project in the end of the development. I was mainly a generalist trying to help with the simpler tasks, fixing minor bugs and trying to modify the visual layout of the app to better reflect the concept images.
-
-## Final Thoughts
 
 This is the first mobile app I’ve developed, and it has been a great experience.  The mentor I had was great and had patience with my sometimes-stupid questions which was really appreciated and helpful.
