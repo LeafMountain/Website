@@ -25,6 +25,11 @@ The idea is to let players cooperate to get through tough situations with a risk
 <iframe class="video" src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" ></iframe><br/>
 <i>This is a small demo of the current AI in the game.</i>
 </center>
+
+
+## Final Thoughts
+This project got scrapped at a later date because of a huge scope and the lack of available time.
+
 <!-- 
 ## Design
 Initial design, setting and feeling of the game
