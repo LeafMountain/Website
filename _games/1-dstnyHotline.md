@@ -10,11 +10,23 @@ tags:
     - C#
     - Generalist
     - UX
+    - iOS
+    - Android
 duration: '2019 - Now'
 engine: Unity3D
 languages: C#
 roles: 'Generalist'
 ---
+“A Dating Game where you get the chance to meet your mystery date with different fun and exciting games.
+You simply activate your account by answering our “Quick Fire” questions and thru compatibility we will match you and your destiny partner.
+Using distance activated face to face video calls, you will have 60 seconds to pick up.
+
+What happens next is up to you!”
+<br>
+<center>
+<i>(Description extracted from https://dstnyhotline.com/ 29.10.2019)</i>
+</center>
+<br>
 
 <video class="video" controls>
   <source src="https://dstnyhotline.com/wp-content/themes/Dstny/videos/dstny-hotline-promo.mp4" type="video/mp4">
@@ -28,17 +40,6 @@ Your browser does not support the video tag.
 <a style="margin: 0 auto;" href="https://apps.apple.com/se/app/dstny-hotline/id1468079049" target="_blank">
     <img alt="Download on the App Store" src="https://dstnyhotline.com/wp-content/themes/Dstny/images/download-on-the-app-store.png">
 </a>
-</center>
-
-## The Idea
-“A Dating Game where you get the chance to meet your mystery date with different fun and exciting games.
-You simply activate your account by answering our “Quick Fire” questions and thru compatibility we will match you and your destiny partner.
-Using distance activated face to face video calls, you will have 60 seconds to pick up.
-
-What happens next is up to you!”
-<br>
-<center>
-<i>(Description extracted from https://dstnyhotline.com/ 29.10.2019)</i>
 </center>
 
 ## My Experience

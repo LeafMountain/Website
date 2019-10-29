@@ -186,6 +186,7 @@ img {
     height: 500px;
     align-self: center;
     margin: 0 auto;
+    padding-top: 1cm;
 }
 
 @-webkit-keyframes fadein {

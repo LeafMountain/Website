@@ -15,7 +15,6 @@ roles: 'Tech Lead / Lead Programmer'
 github: 'https://github.com/LeafMountain/TheGoodFew'
 ---
 
-## Description
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
