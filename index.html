@@ -4,6 +4,7 @@ layout: default
 <section class="showcase">
 
     {% for game in site.games %}
+    <a href="{{site.baseurl}}{{game.url}}">
         <div class="card boxshadow" style="background-image: url({{site.baseurl}}/{{game.coverImg}})">
             <div id="overlay">
                 <div id="description"  class="fadein">
@@ -15,21 +16,22 @@ layout: default
 
                     <p>{{game.meta}}</p>
 
-                    <br>
-
-                    <a id="button" href="{{site.baseurl}}{{game.url}}">
-                        Read More
-                    </a>
-
-                    <br>
-                    <center>
-                    <b>• {% for tag in game.tags %} {{tag}} • {% endfor %}</b>
-                    </center>
-
+                    <!-- <br> -->
+                        
+                        <!-- <a id="button" href="{{site.baseurl}}{{game.url}}">
+                            Read More
+                        </a> -->
+                        
+                        <br>
+                        <center>
+                            <b>• {% for tag in game.tags %} {{tag}} • {% endfor %}</b>
+                        </center>
+                        
+                    </div>
+                    
                 </div>
-
             </div>
-        </div>
+        </a>
     {% endfor %}
 
 
