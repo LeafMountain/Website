@@ -11,17 +11,17 @@ logo: img/logo.png
 category: game
 tags:
     - Awesome Programmer
-    - Amazing Designer
+    - Good Designer
     - Super Kind
 ---
 
 <br>
 <center>
-<a class="button" href="{{site.baseurl}}/data/CV_AlexanderLovberg.pdf">CV</a>
-<a class="button" href="https://www.linkedin.com/in/alexanderlovberg/">LinkedIn</a>
-<a class="button" href="https://twitter.com/LeafMountain">Twitter</a>
-<a class="button" href="https://github.com/LeafMountain">GitHub</a>
-<a class="button" href="mailto: contact@alexanderlovberg.com">Mail</a>
+<a class="button" href="{{site.baseurl}}/data/CV_AlexanderLovberg.pdf" target="_blank">CV</a>
+<a class="button" href="https://www.linkedin.com/in/alexanderlovberg/" target="_blank">LinkedIn</a>
+<a class="button" href="https://twitter.com/LeafMountain" target="_blank">Twitter</a>
+<a class="button" href="https://github.com/LeafMountain" target="_blank">GitHub</a>
+<a class="button" href="mailto: contact@alexanderlovberg.com" target="_blank">Mail</a>
 </center>
 <br>
 
@@ -40,7 +40,7 @@ I'm currently a student living in Sweden studying game programming.
             <ul>
                 <li>C++</li>
                 <li>C#</li>
-                <li>Lua</li>
+                <!-- <li>Lua</li> -->
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>PHP</li>
@@ -57,6 +57,7 @@ I'm currently a student living in Sweden studying game programming.
                 <li>Perforce</li>
                 <li>Jira</li>
                 <li>Hansoft</li>
+                <li>Trello</li>
             </ul>
         </td>
     </tr>
@@ -70,8 +71,8 @@ I'm currently a student living in Sweden studying game programming.
 * ### FUTUREGAMES GAME PROGRAMMER
 #### 2018 - Present <br>
 Studying game programming between 2018 - 2020. We experimented with
-everything from publicly available engines using C++, C# and Lua, but also
-developed things like simple engines.
+everything from publicly available engines using C++, C# and Lua, to also
+developing things like simple engines, physics simulations and shader creation.
 
 <br>
 

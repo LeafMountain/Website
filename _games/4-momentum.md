@@ -6,10 +6,10 @@ coverImg: img/Momentum/cover.jpg
 logo: img/Momentum/logo.png
 category: game
 tags:
-    - C++
-    - UE4
+    - C#
+    - Unity
 duration: 'Under Development'
-engine: Unreal Engine 4
+engine: Unity3D
 languages: C++
 roles: 'Gameplay Programmer'
 github: 'https://github.com/LeafMountain/Momentum'
@@ -20,7 +20,8 @@ Momentum is set in a place where the technology is run on the forces of time. In
 
 The objective was to create a rhythm based game play which challenges the player’s abilities on timing and planning. The player is equipped with a time manipulation device which can alter the states of certain platforms, structures and mechanisms. The player need to progress the level while overcoming the device's limitation of control.
 
-<br/><center>
+<br>
+<center>
 <iframe width="80%" height="500" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
 <i> Trailer </i>
 </center>

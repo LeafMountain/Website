@@ -181,8 +181,11 @@ img {
 }
 
 .video {
+    display: block;
     width: 80%;
     height: 500px;
+    align-self: center;
+    margin: 0 auto;
 }
 
 @-webkit-keyframes fadein {
