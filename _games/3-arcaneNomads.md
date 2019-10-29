@@ -7,7 +7,7 @@ logo: img/ArcaneNomads/logo.png
 category: game
 tags:
     - C#
-    - Unity
+    - AI
 duration: 'Scrapped'
 engine: Unity3D
 languages: C#

@@ -7,7 +7,7 @@ logo: img/TheGoodFew/logo.png
 category: game
 tags:
     - C#
-    - Unity
+    - Gameplay
 duration: '2' #2 months
 engine: Unity3D
 languages: C#

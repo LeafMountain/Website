@@ -8,7 +8,8 @@ logo: img/DstnyHotline/logo.png
 category: game
 tags:
     - C#
-    - Unity
+    - Generalist
+    - UX
 duration: '2019 - Now'
 engine: Unity3D
 languages: C#
