@@ -28,10 +28,10 @@ Featuring a class and sub-class-based leveling system, an upgradeable player hub
 <br>
 <i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
 </center>
-
+<!-- 
 ## Components
 Since I was the sole programmer on this project, I had to create simple components that other team members could use to build gameplay.
 
 
 ## Final Thoughts
-We had a huge scope with several different games integrated into one. In the end we created the core game play, the combat.
+We had a huge scope with several different games integrated into one. In the end we created the core game play, the combat. -->
