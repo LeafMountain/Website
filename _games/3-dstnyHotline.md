@@ -43,6 +43,9 @@ Your browser does not support the video tag.
 </center>
 
 ## My Experience
-I joined this project in the end of the development. I was mainly a generalist trying to help with the simpler tasks, fixing minor bugs and trying to modify the visual layout of the app to better reflect the concept images.
+I joined this project in the end of the development and, since we were a small team most of us worked on several parts of the application. I would describe my role as "generalist" since I worked with
+* Fixing various bugs related to thing such as visual inconsistencies or faulty values from the backend server.
+* Improving visuals to stisfy the customer while also keeping the flow of the experience.
+* Generally polishing the application for release.
 
-This is the first mobile app I’ve developed, and it has been a great experience.  The mentor I had was great and had patience with my sometimes-stupid questions which was really appreciated and helpful.
+This is my first experience develeoping for a mobile device. It has been a great project with extremely nice and helpful people.

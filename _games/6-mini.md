@@ -1,7 +1,14 @@
 ---
 layout: game
 title: 'Mini Projects'
-meta: 'This is a collection of small scale projects or features extracted from bigger projects.'
+meta: 'This is a collection of small scale projects or features extracted from bigger projects.
+
+<br>
+<br>
+Procedual 2D Texture (interactive)
+<br>
+Boid AI (interactive)
+'
 coverImg: img/ArcaneNomads/cover.png
 logo: img/Mini/logo.png
 category: game
