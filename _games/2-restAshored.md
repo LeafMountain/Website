@@ -49,7 +49,7 @@ These are examples of some phrases that worked in the game;
             <b>Name:</b><br> Astrid
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Action:</b><br> Go To
+            <b>Aashction:</b><br> Go To
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
             <b>Object:</b><br> Tent
