@@ -19,12 +19,14 @@ duration: 'Scrapped'
 engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
-github: 'https://github.com/LeafMountain/ArcaneNomads'
+# github: 'https://github.com/LeafMountain/ArcaneNomads'
 ---
 ## Structure Generator
 This has been something I've been interested in for a while and decided would be an awesome project to try and create. This algorithm is heavily inspired by WFC (Wave Function Collapse). The algorithm takes a sample as an input, analyzes the sample and then try to create something similar.
 
 <center>
+<br>
+<a href="https://github.com/leafmountain/ProceduralCity/tree/master/Assets" target="_blank" class="button">View on Github</a>
 <iframe class="video" src="https://leafmountain.github.io/ProceduralCity/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" ></iframe><br/>
 <i>This is a small demo of the current AI in the game.</i>
 </center>

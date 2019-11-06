@@ -45,11 +45,11 @@ These are examples of some phrases that worked in the game;
         </td>
     </tr>
     <tr>
-        <td style="background: #f6d443; border-radius: 3px;">
+        <td style="background: #E68364; border-radius: 3px;">
             <b>Name:</b><br> Astrid
         </td>
         <td style="background: #00724e; border-radius: 3px;">
-            <b>Aashction:</b><br> Go To
+            <b>Action:</b><br> Go To
         </td>
         <td style="background: #6495ed; border-radius: 3px;">
             <b>Object:</b><br> Tent
@@ -66,7 +66,7 @@ These are examples of some phrases that worked in the game;
         </td>
     </tr>
     <tr>
-        <td style="background: #f6d443; border-radius: 3px;">
+        <td style="background: #E68364; border-radius: 3px;">
             <b>Name:</b><br> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
@@ -87,7 +87,7 @@ These are examples of some phrases that worked in the game;
         </td>
     </tr>
     <tr>
-        <td style="background: #f6d443; border-radius: 3px;">
+        <td style="background: #E68364; border-radius: 3px;">
             <b>Name:</b><br> Beatrice
         </td>
         <td style="background: #00724e; border-radius: 3px;">
@@ -103,12 +103,121 @@ These are examples of some phrases that worked in the game;
 </table>
 
 <center>
-<i>Units are registered at objects as well to let other units interact with them.</i>
+<i>Units are registered as objects as well to let other units interact with them.</i>
 </center>
 
 <br><br>
-<a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">Command System</a>
-<br><br>
+
+<div class="wrap-collabsible">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">Command System</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+    <pre><code class='language-cpp'>
+void ATTCommandSystem::StringToCommand(FString text)
+{
+    // Exit function since there's no command listeners
+    if (listeners.Num() < 1 || !listeners[0])
+        return;
+
+    // Remove the spaces in the beginning of the string
+    text.TrimStartInline();
+
+    // Check if the first word is a name (Special check on the first word)
+    TArray<UTTCommandListenerComponent*> commandListeners;
+
+    // Check if the word is everyone
+    FString listenerName = "everyone";
+    if (text.StartsWith(listenerName))
+    {
+        // Add all the listeners
+        for (UTTCommandListenerComponent* listener : listeners)
+        {
+            commandListeners.Add(listener);
+        }
+    }
+    // Or check which listeners the player tried to select
+    else
+    {
+        int listenersNum = listeners.Num();
+        for (int i = 0; i < listenersNum; i++)
+        {
+            text.TrimStartInline();
+
+            FString listenerName = listeners[i]->ListenerTag.ToString();
+            bool wordsMatched = text.RemoveFromStart(listenerName);
+            if (wordsMatched)
+            {
+                if(!commandListeners.Contains(listeners[i]))
+                    commandListeners.Add(listeners[i]);
+    
+                i = -1;
+            }
+        }
+    }
+
+    // Select the listeners if any has been found
+    if(commandListeners.Num() > 0)
+        SelectListeners(commandListeners);
+
+    int verbsNum = verbs.Num();
+    int interactablesNum = interactableNames.Num();
+
+    while(text.Len() > 2)
+    {
+        bool wordsMatched = false;
+
+        // loop through all the words
+        for (int i = 0; i < verbsNum + interactablesNum; i++)
+        {
+            // Clean up the text
+            text.TrimStartInline();
+
+            // Flag to check if within verbs arrays range
+            bool withinVerbsRange = i < verbsNum;
+            // Calculate the correct index to use depending on array
+            int correctIndex = withinVerbsRange ? i : i - verbsNum;
+            // Get the word we want to compare
+            FString wordToCompare = withinVerbsRange ? verbs[correctIndex] : interactableNames[correctIndex];
+
+            wordsMatched = text.RemoveFromStart(wordToCompare) ;
+            if (wordsMatched)
+            {
+                // add the command as well
+                FCommandQueueStruct newCommand;
+                newCommand.type = withinVerbsRange ? CT_Verb : CT_Object;
+                newCommand.text = wordToCompare;
+
+                commandQueue.Add(newCommand);
+
+                break;
+            }
+        }
+
+        // Remove the first word since it's not recognized
+        if (!wordsMatched)
+        {
+            // Remove first word
+            int spaceIndex;
+            text.FindChar(' ', spaceIndex);
+
+            if (spaceIndex < 0)
+                text.Empty();
+            else
+                text.RemoveAt(0, spaceIndex + 1);
+        }
+    }
+
+    PrintQueue(&commandQueue);
+    SendCommandToUnit();
+}
+    </code></pre>
+
+    <!-- <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
+    <br><br> -->
+    </div>
+  </div>
+</div>
 
 ## Components
 I'm a big supporter of a component based system and were a big part of planning the architecture of the game. The reason we picked this architecture is to give the designers the freedom to create the game they imagined.
@@ -116,6 +225,12 @@ I'm a big supporter of a component based system and were a big part of planning 
 Me and my programmer teammates worked close with the designers to provide the functionality the designers needed to create the player experience they had envisioned. This worked very well and made it possible to iterate on the game in an effective manner.
 
 Other than that I have been a part of many different systems, either by planning, helping or writing code together with other members of the team.
+
+<!-- <img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif" height="250px" width="400px">
+<img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="250px" width="400px">
+<img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="250px" width="400px"> -->
+
+![alt text]({{site.baseurl}}/img/RestAshored/RobinUseStone.gif "Harvesting Rocks")|![alt text]({{site.baseurl}}/img/RestAshored/punchastrid.gif "Logo Title Text 1")|![alt text]({{site.baseurl}}/img/RestAshored/astridgetwarm.gif "Logo Title Text 1")
 
 ## Final Thoughts
 The greatest hurdle during this project was to find the fun. The lesser used input method did in the end damage the game play by making it harder to control and less responsive. In the end we accepted this as a failed game, but we also recognized that this was still a fun experiment. Even though the game weren’t as fun as we hoped, some players found the game enjoyable in other ways. By just trying commands and see what happens did sometimes have a comical effect.
