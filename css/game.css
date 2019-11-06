@@ -151,6 +151,7 @@ input[type='checkbox'] {
 
 .game pre {
     white-space: pre-wrap;
+    /* color: initial; */
 }
 
 .game table img{

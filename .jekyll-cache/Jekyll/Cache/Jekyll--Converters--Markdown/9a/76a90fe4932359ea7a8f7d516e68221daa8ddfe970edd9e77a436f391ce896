@@ -1,5 +1,8 @@
-I"�<h2 id="structure-generator">Structure Generator</h2>
-<p>This has been something I’ve been interested in for a while and decided would be an awesome project to try and create. This algorithm is heavily inspired by WFC (Wave Function Collapse). The algorithm takes a sample as an input, analyzes the sample and then try to create something similar.</p>
+I"5	<h2 id="structure-generator">Structure Generator</h2>
+<p><a id="button" href="https://github.com/LeafMountain/ProceduralCity">
+    View on GitHub
+</a>
+This has been something I’ve been interested in for a while and decided would be an awesome project to try and create. This algorithm is heavily inspired by WFC (Wave Function Collapse). The algorithm takes a sample as an input, analyzes the sample and then try to create something similar.</p>
 
 <center>
 <br />
@@ -9,7 +12,10 @@
 </center>
 
 <h2 id="interactive-boid-ai">Interactive Boid AI</h2>
-<p>Arcane Nomads was a Third-Person Survival Shooter set in a dark post-apocalyptic zombie ridden world. Your goal as survivors is simply surviving, you cannot stay in only one place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.</p>
+<p><a id="button" href="https://github.com/LeafMountain/AI-Toy">
+    View on GitHub
+</a>
+Arcane Nomads was a Third-Person Survival Shooter set in a dark post-apocalyptic zombie ridden world. Your goal as survivors is simply surviving, you cannot stay in only one place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.</p>
 
 <p>The idea is to let players cooperate to get through tough situations with a risk-reward consideration.  One of the main features of the game is the ability to upgrade pretty much everything to make it feel like the player has created the game and tactics. Our design goals were to make the player proud over its creations, feel curiosity over what’s out in the world and a fear of losing it all. The game was made to be played with a twin-stick controller and was developed for PC.</p>
 <center>

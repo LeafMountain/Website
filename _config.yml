@@ -2,6 +2,13 @@ baseurl: /
 exclude: ['README.md']
 permalink: pretty
 
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 collections:
   games:
     output: true

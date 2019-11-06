@@ -1,6 +1,12 @@
-I"[<p>Momentum is set in a place where the technology is run on the forces of time. In order to sustain it, time has been harvested from several timelines. Due to this harvest, the time continuum has started to fall apart. It is up to you to find the locks which are keeping the time vault closed and release time back into the world before it is too late.</p>
+I"�<p>Momentum is set in a place where the technology is run on the forces of time. In order to sustain it, time has been harvested from several timelines. Due to this harvest, the time continuum has started to fall apart. It is up to you to find the locks which are keeping the time vault closed and release time back into the world before it is too late.</p>
 
 <p>The objective was to create a rhythm based game play which challenges the player’s abilities on timing and planning. The player is equipped with a time manipulation device which can alter the states of certain platforms, structures and mechanisms. The player need to progress the level while overcoming the device’s limitation of control.</p>
+
+<p>During this project I worked on:</p>
+<ul>
+  <li>Player Input / Movement</li>
+  <li>Level Design Tools to ease the level creation for designers</li>
+</ul>
 
 <video class="video" controls="">
   <source src="https://carbon-media.accelerator.net/0000000l2gC/isQ469qytVfcekq8Zgljvc;video.mp4" type="video/mp4" />
