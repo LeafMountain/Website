@@ -20,6 +20,10 @@ Momentum is set in a place where the technology is run on the forces of time. In
 
 The objective was to create a rhythm based game play which challenges the player’s abilities on timing and planning. The player is equipped with a time manipulation device which can alter the states of certain platforms, structures and mechanisms. The player need to progress the level while overcoming the device's limitation of control.
 
+During this project I worked on:
+* Player Input / Movement
+* Level Design Tools to ease the level creation for designers
+
 <video class="video" controls>
   <source src="https://carbon-media.accelerator.net/0000000l2gC/isQ469qytVfcekq8Zgljvc;video.mp4" type="video/mp4">
   <!-- <source src="movie.ogg" type="video/ogg"> -->
