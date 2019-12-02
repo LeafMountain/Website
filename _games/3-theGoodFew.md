@@ -19,9 +19,57 @@ The Good Few is a colorful turn-based role-playing game sprinkled with city-buil
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
 
-Featuring a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
+The idea featured a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
-During this project I worked on all the programming since I was the sole programmer on the team.
+## Turn System
+
+## Skills System
+
+Picture of skillbar
+
+Picture of unity UI when creating a skill | Using scriptable assets
+
+Picture of unit using skill | Straight forward to set the values that's used in the UI and when using the skill
+
+## Level Tools and Grid
+
+Picture of grid while moving obstacle | To design levels I added a grid that showed the walkable tiles. If an area were supposed to be blocked we used a components that made those cells unwalkable.
+
+Picture of walkable grid in game changing shape | To display the walk distance of a unit I generate a mesh and update its shape to fil the ground.
+
+## UI
+* Separated the "UI component" and the system that updated it to make it easy to set values.
+
+<div class="wrap-collabsible">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">UI Component</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+    <pre><code class='language-c_sharp'>
+
+    </code></pre>
+
+    <!-- <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
+    <br><br> -->
+    </div>
+  </div>
+</div>
+
+<div class="wrap-collabsible">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">System Updating UI</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+    <pre><code class='language-c_sharp'>
+
+    </code></pre>
+
+    <!-- <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
+    <br><br> -->
+    </div>
+  </div>
+</div>
+
 
 <br>
 <center>
@@ -33,6 +81,16 @@ During this project I worked on all the programming since I was the sole program
 ## Components
 Since I was the sole programmer on this project, I had to create simple components that other team members could use to build gameplay.
 
+## Movement
+
+* Using NavMesh
+* Snapping the Unit to the destination in case of error
+* Grid made of a mesh to mark the positions that the unit can move to. (Generating mesh and just adjusting verts)
+
+## Turn System
+
+* Player
+* Enemy
 
 ## Final Thoughts
 We had a huge scope with several different games integrated into one. In the end we created the core game play, the combat. -->

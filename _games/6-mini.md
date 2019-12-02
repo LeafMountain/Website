@@ -34,6 +34,10 @@ This has been something I've been interested in for a while and decided would be
 <i>This is a small demo of the current AI in the game.</i>
 </center>
 
+* Starts with every tile having the possibility to be every tile.
+* Picks a slot with the lowest number of possible tiles and let that slow pick a random tile from the possibilities.
+* Tells neighbor slots around it that a tile has been picked.
+
 
 ## Interactive Boid AI
 <a id="button" href="https://github.com/LeafMountain/AI-Toy">

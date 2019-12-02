@@ -31,24 +31,25 @@ During this project I worked on:
 </video>
 <center><i>Trailer</i></center>
 
-<!-- ## Player Movement
+## Player Movement
 
-Responsive.
-Follow terrain.
-Speed run friendly ("bug")
+To make it feel responsive I approached the creating by first creating a very harsh and "responsive" movement (move at full speed when pressing forward). This didn't feel too good but it was a good first step. After this I used the feedback to adjust the movement with custom velocity, acceleration and a bunch of other variables to let the movement behave different during the grounded and ariborne state.
+
+Since the player were supposed to move with the mobile platform I created a simple solution to let the player follow the ground he or she was standing on when grounded. This was to make it easy to keep moving even when landing on an already moving platform. A problem that came with this solution was that the jump didn't feel good when leaving the platform. We solved this by using the players velocity with the jump to launch he or she even further.
+
+In the end a bunch of modifications to the movement created a bug that let the player accelerate when turning. Even tho this was not the intended design this was met with excitement so we kept it.
 
 ## Time Manipulation tool
 
-Iteration.
-Showing rather than guessing.
-Work closely with design.
+* Iteration.
+* Showing rather than guessing.
+* Work closely with design.
 
 ## Level Design Tools
-Showing paths to remove the guesswork.
 
-## Loose Design
-Worked in the dark.
-Tried to define it later.
+* Path and follower.
+
+Hej|![alt text](http://oliviafollin.com/____impro/1/onewebmedia/Custom_tool_to_see_path_in_editor_mode.gif?etag=%2283e18-5da090cf%22&sourceContentType=image%2Fgif&ignoreAspectRatio&resize=576%2B441 "Harvesting Rocks")
 
 ## Final Thoughts
-Define gameplay to test, create, iterate. -->
+Define gameplay to test, create, iterate.
