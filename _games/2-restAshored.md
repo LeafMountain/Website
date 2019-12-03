@@ -16,14 +16,13 @@ github: 'https://github.com/LeafMountain/RestAshored'
 ---
 <br/>
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <i> A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again. </i>
 </center>
 
 <br>
 
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <i> One of the developers playing the game. </i>
 </center>
 
@@ -230,12 +229,22 @@ Other than that I have been a part of many different systems, either by planning
 <img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif" height="250px" width="400px">
 <img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif" height="250px" width="400px"> -->
 
-![alt text]({{site.baseurl}}/img/RestAshored/RobinUseStone.gif "Harvesting Rocks")|![alt text]({{site.baseurl}}/img/RestAshored/punchastrid.gif "Logo Title Text 1")|![alt text]({{site.baseurl}}/img/RestAshored/astridgetwarm.gif "Logo Title Text 1")
+<div id="horizontalGrid3">
+    <img src="{{site.baseurl}}/img/RestAshored/RobinUseStone.gif">
+    <img src="{{site.baseurl}}/img/RestAshored/punchastrid.gif">
+    <img src="{{site.baseurl}}/img/RestAshored/astridgetwarm.gif">
+</div>
 
 ## Final Thoughts
 The greatest hurdle during this project was to find the fun. The lesser used input method did in the end damage the game play by making it harder to control and less responsive. In the end we accepted this as a failed game, but we also recognized that this was still a fun experiment. Even though the game weren’t as fun as we hoped, some players found the game enjoyable in other ways. By just trying commands and see what happens did sometimes have a comical effect.
 
-If I was to create another similar game I would focus more on developing the idea and figuring out beforehand how the input enhances the game play, and not just include it and see it become a gimmick. 
+If I was to create another similar game I would focus more on developing the idea and figuring out beforehand how the input enhances the game play, and not just include it and see it become a gimmick.
+
+## Intro Cinematic
+
+<center>
+<iframe class="video" src="https://www.youtube.com/embed/qiopL5JH13k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
 
 <!-- One of the most difficult challenges of this project was the relatively unique way of controlling the game. We picked voice input because of the player engagement. We wanted the player to feel kind of like a nagging parent and get to know the people they were controlling. Of course speech recognition is at its best not fully accurate, especially with different accents, which made this a somewhat difficult way of controlling the game. The game were planned and build around this feature which made it hard in the end to switch to another input, which in turn could have enhanced the game play.
 

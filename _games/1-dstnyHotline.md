@@ -28,9 +28,7 @@ What happens next is up to you!”
 </center>
 <br>
 
-<video class="video" controls>
-  <source src="https://dstnyhotline.com/wp-content/themes/Dstny/videos/dstny-hotline-promo.mp4" type="video/mp4">
-  <!-- <source src="movie.ogg" type="video/ogg"> -->
+<video class="video" controls autoplay muted src="https://dstnyhotline.com/wp-content/themes/Dstny/videos/dstny-hotline-promo.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 

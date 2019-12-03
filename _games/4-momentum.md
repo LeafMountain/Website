@@ -24,9 +24,7 @@ During this project I worked on:
 * Player Input / Movement
 * Level Design Tools to ease the level creation for designers
 
-<video class="video" controls>
-  <source src="https://carbon-media.accelerator.net/0000000l2gC/isQ469qytVfcekq8Zgljvc;video.mp4" type="video/mp4">
-  <!-- <source src="movie.ogg" type="video/ogg"> -->
+<video class="video" autoplay muted src="https://carbon-media.accelerator.net/0000000l2gC/isQ469qytVfcekq8Zgljvc;video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 <center><i>Trailer</i></center>

@@ -21,6 +21,13 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 
 The idea featured a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
+<br>
+<center>
+<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br>
+<i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
+</center>
+
 ## Turn System
 
 ## Skills System
@@ -68,7 +75,7 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 ## UI
 * Separated the "UI component" and the system that updated it to make it easy to set values.
 
-<div class="wrap-collabsible">
+<!-- <div class="wrap-collabsible">
   <input id="collapsible" class="toggle" type="checkbox">
   <label for="collapsible" class="lbl-toggle">UI Component</label>
   <div class="collapsible-content">
@@ -77,34 +84,40 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 
     </code></pre>
 
-    <!-- <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
-    <br><br> -->
+    <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
+    <br><br>
     </div>
   </div>
 </div>
 
 <div class="wrap-collabsible">
-  <input id="collapsible" class="toggle" type="checkbox">
-  <label for="collapsible" class="lbl-toggle">System Updating UI</label>
-  <div class="collapsible-content">
-    <div class="content-inner">
-    <pre><code class='language-c_sharp'>
+<input id="collapsible" class="toggle" type="checkbox">
+<label for="collapsible" class="lbl-toggle">System Updating UI</label>
+<div>
+  <div class="content-inner">
+  <pre><code class='language-c_sharp'>
 
-    </code></pre>
+  </code></pre>
 
-    <!-- <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
-    <br><br> -->
-    </div>
+  <a class="button" href="https://github.com/LeafMountain/RestAshored/tree/master/Source/GP2_Team3/CommandSystem" target="_blank">View on GitHub</a>
+  <br><br>
   </div>
 </div>
+</div> -->
 
+<!-- ```
 
-<br>
-<center>
-<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br>
-<i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
-</center>
+class TestClass
+{
+  void Test()
+  {
+    float hej;
+    return;
+  }
+}
+
+``` -->
+
 <!-- 
 ## Components
 Since I was the sole programmer on this project, I had to create simple components that other team members could use to build gameplay.
