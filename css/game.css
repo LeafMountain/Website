@@ -154,7 +154,23 @@ input[type='checkbox'] {
     /* color: initial; */
 }
 
-.game table img{
+.game #horizontalGrid2 {
+    /* width: 100%; */
+    display: grid;
+    /* grid-template-areas: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    grid-gap: .5cm;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.game video {
+    max-width: 100%;
+    margin: auto;
+}
+
+.game #horizontalGrid2 img {
     width: 100%;
 }
 
@@ -169,5 +185,10 @@ input[type='checkbox'] {
 
     .game table {
         width: 100%;
+    }
+
+    .game #horizontalGrid2 {
+        grid-template-columns: 1fr;
+        overflow: hidden;
     }
 }

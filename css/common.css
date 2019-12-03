@@ -201,6 +201,6 @@ img {
 
 @media (max-width: 1000px) {
     .wrapper {
-        width: 95vw;
+        width: 95%;
     }
 }

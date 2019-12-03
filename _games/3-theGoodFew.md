@@ -25,17 +25,45 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 
 ## Skills System
 
-Picture of skillbar
+![Skillbar]({{site.baseurl}}/img/TheGoodFew/skillbar.png)
 
-Picture of unity UI when creating a skill | Using scriptable assets
+<div id="horizontalGrid2">
+  <img src="{{site.baseurl}}/img/TheGoodFew/skillAsset.png">
+  <p>
+    Using scriptable assets
+  </p>
+</div>
 
-Picture of unit using skill | Straight forward to set the values that's used in the UI and when using the skill
+<div id="horizontalGrid2">
+  <img src="{{site.baseurl}}/img/TheGoodFew/skillInGame.png">
+  <p>
+    Straight forward to set the values that's used in the UI and when using the skill
+  </p>
+</div>
 
 ## Level Tools and Grid
 
-Picture of grid while moving obstacle | To design levels I added a grid that showed the walkable tiles. If an area were supposed to be blocked we used a components that made those cells unwalkable.
+<div id="horizontalGrid2">
+  <video autoplay muted loop="loop" src="{{site.baseurl}}/img/TheGoodFew/placementGrid.mp4" type="video/mp4" width="100%" height="auto">
+    Picture of walkable grid in game changing shape.
 
-Picture of walkable grid in game changing shape | To display the walk distance of a unit I generate a mesh and update its shape to fil the ground.
+    Your browser does not support the video tag.
+  </video>
+  <p>
+    To design levels I added a grid that showed the walkable tiles. If an area were supposed to be blocked we used a components that made those cells unwalkable.
+  </p>
+</div>
+
+<div id="horizontalGrid2">
+  <video autoplay muted loop="loop" src="{{site.baseurl}}/img/TheGoodFew/movementGrid.mp4" type="video/mp4" width="100%" height="auto">
+  Picture of walkable grid in game changing shape.
+
+  Your browser does not support the video tag.
+  </video>
+  <p>
+    To display the walk distance of a unit I generate a mesh and update its shape to fil the ground.
+  </p>
+</div>
 
 ## UI
 * Separated the "UI component" and the system that updated it to make it easy to set values.

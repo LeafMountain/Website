@@ -90,7 +90,6 @@ section.showcase #button:hover {
     transition: all 0.2s ease-in-out;
 }
 
-
 @media (max-width: 1081px) {
     section.showcase {
         grid-template-columns: 1fr;
