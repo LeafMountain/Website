@@ -22,7 +22,7 @@ github: 'https://github.com/LeafMountain/RestAshored'
 <br>
 
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <i> One of the developers playing the game. </i>
 </center>
 

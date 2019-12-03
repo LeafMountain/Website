@@ -23,7 +23,7 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 
 <br>
 <center>
-<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br>
 <i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
 </center>
