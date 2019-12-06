@@ -68,12 +68,18 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
   Your browser does not support the video tag.
   </video>
   <p>
-    To display the walk distance of a unit I generate a mesh and update its shape to fil the ground.
+    To show the interactable cells I created a simple texture and generated a mesh. The mesh changes size depending on the distance the character can reach with different abilities or walk distance. I adjust the vertices in the y-axis to not clip the ground. To differentiate between friendly units, enemy units and empty tiles I generate submeshes and apply a different color to the material.
   </p>
 </div>
 
 ## UI
 * Separated the "UI component" and the system that updated it to make it easy to set values.
+
+<div id="horizontalGrid2">
+  <p>Image of something</p>
+  <p>Hello</p>
+</div>
+
 
 <!-- <div class="wrap-collabsible">
   <input id="collapsible" class="toggle" type="checkbox">
