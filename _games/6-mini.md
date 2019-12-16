@@ -15,13 +15,9 @@ category: game
 tags:
     - Procedual Structure
     - AI
-duration: 'Scrapped'
-engine: Unity3D
-languages: C#
-roles: 'Tech Lead / Lead Programmer'
 # github: 'https://github.com/LeafMountain/ArcaneNomads'
 ---
-## Structure Generator
+## Structure Generator (try clicking)
 <a id="button" href="https://github.com/LeafMountain/ProceduralCity">
     View on GitHub
 </a>
@@ -39,7 +35,7 @@ This has been something I've been interested in for a while and decided would be
 * Tells neighbor slots around it that a tile has been picked.
 
 
-## Interactive Boid AI
+## Interactive Boid AI (try clicking)
 <a id="button" href="https://github.com/LeafMountain/AI-Toy">
     View on GitHub
 </a>
