@@ -8,33 +8,40 @@ category: game
 tags:
     - C#
     - Gameplay
-duration: '2' #2 months
+duration: '10 weeks' #2 months
 engine: Unity3D
 languages: C#
-roles: 'Tech Lead / Lead Programmer'
+teamSize: "5 (1 programmer)"
+roles: 'Lead Programmer'
+genre: 'Turn-Based Strategy'
+year: '2017'
 github: 'https://github.com/LeafMountain/TheGoodFew'
 trailer: 'https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1'
 ---
 
-The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
-
-The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
-
-The idea featured a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
-
-<br>
-<!-- <center> -->
-
-<div id="horizontalGrid2">
+<!-- <div id="horizontalGrid2">
   <iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <div>
     <ul>
-      <li>Duration: 2 months</li>
+      <li>Roles: Game Programmer</li>
+      <li>Time: 2 months</li>
       <li>Engine: Unity</li>
-      
+      <li>Language: C#</li>
+      <li>Genre: Turn-Based Strategy</li>
     </ul>
   </div>
-</div>
+</div> -->
+
+<!-- The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
+
+The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
+
+The idea featured a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat. -->
+
+During this project I was the <b>sole programmer</b> and made every system in the game. Below I've mentioned a few systems I would like to highlight.
+
+<br>
+<!-- <center> -->
 
 <!-- <br> -->
 
@@ -113,7 +120,7 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
     <ul>
       <li>Procedural Mesh</li>
       <li>Grid follows terrain</li>
-      <li>Analyzed the surroundings</li>
+      <li>Analyzes the surroundings</li>
     </ul>
     <p>
       To show the interactable cells I created a simple texture and generated a mesh. The mesh changes size depending on the distance the character can reach with different abilities or walk distance. I adjust the vertices in the y-axis to not clip the ground. To differentiate between friendly units, enemy units and empty tiles I generate submeshes and apply a different color to the material.
@@ -124,11 +131,12 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 <!-- ## UI -->
 
 <div id="horizontalGrid2">
-  <p>Image of something</p>
+    <img src="{{site.baseurl}}/img/TheGoodFew/ui3.png">
   <div>
     <h1>Small UI Components</h1>
     <ul>
       <li>Separated the "UI component" and the system that updated it to make it easy to set values</li>
+      <li>Event-driven updates</li>
     </ul>
     <p>I separated the component that updated the visual UI with the logic that sends the information. This did create a bunch of components but also separated the code into smaller classes.</p>
   </div>

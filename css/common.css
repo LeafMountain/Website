@@ -69,6 +69,7 @@ h4 {
 p {
     padding: 5px;
     text-align: justify;
+    /* color: rgb(231, 231, 231); */
 }
 
 img {
@@ -84,6 +85,12 @@ img {
 
 ul {
     padding-left: 30px;
+}
+
+.nopadding {
+    /* padding-left: 0 !important; */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .justifyright {
@@ -180,14 +187,14 @@ img {
     animation-fill-mode: forwards;
 }
 
-.video {
+/* .video {
     display: block;
     width: 100%;
     height: 30rem;
     align-self: center;
     margin: 0 auto;
     padding-top: 1cm;
-}
+} */
 
 @-webkit-keyframes fadein {
     from {opacity: 0;}
@@ -201,6 +208,6 @@ img {
 
 @media (max-width: 1000px) {
     .wrapper {
-        width: 95%;
+        width: 90%;
     }
 }

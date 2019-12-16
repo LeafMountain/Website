@@ -30,7 +30,7 @@ This has been something I've been interested in for a while and decided would be
 <center>
 <br>
 <a href="https://github.com/leafmountain/ProceduralCity/tree/master/Assets" target="_blank" class="button">View on Github</a>
-<iframe class="video" src="https://leafmountain.github.io/ProceduralCity/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" ></iframe><br/>
+<iframe class="video gamedemo" src="https://leafmountain.github.io/ProceduralCity/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px"></iframe><br/>
 <i>This is a small demo of the current AI in the game.</i>
 </center>
 
@@ -48,7 +48,7 @@ Arcane Nomads was a Third-Person Survival Shooter set in a dark post-apocalyptic
 The idea is to let players cooperate to get through tough situations with a risk-reward consideration.  One of the main features of the game is the ability to upgrade pretty much everything to make it feel like the player has created the game and tactics. Our design goals were to make the player proud over its creations, feel curiosity over what’s out in the world and a fear of losing it all. The game was made to be played with a twin-stick controller and was developed for PC.
 <center>
 
-<iframe class="video" src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" ></iframe><br/>
+<iframe class="video gamedemo" src="https://leafmountain.github.io/AI-Toy/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" ></iframe><br/>
 <i>This is a small demo of the current AI in the game.</i>
 </center>
 

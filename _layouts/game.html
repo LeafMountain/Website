@@ -7,19 +7,35 @@ layout: default
         <div id="content"  class="fadein">
             <div id="title">
                 <h1>{{page.title}}</h1>
-                <h3>
+                <!-- <h3>
                     <ul>
                         • 
                         {% for tag in page.tags %} 
                         <li> {{tag}}  </li> •
                         {% endfor %}
                     </ul>
-                </h3>
+                </h3> -->
 
                 <br>
                 {% if page.github %}
                     <a class="button" href="{{page.github}}">GitHub</a>
                 {% endif %}
+
+                <div id="horizontalGrid2">
+                    <iframe class="video" src="{{page.trailer}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div>
+                      <ul class="nopadding">
+                        <li>Roles: {{page.roles}}</li>
+                        <li>Time: {{page.duration}}</li>
+                        <li>Engine: {{page.engine}}</li>
+                        <li>Language: {{page.languages}}</li>
+                        <li>Genre: {{page.genre}}</li>
+                        <li>Team Size: {{page.teamSize}}</li>
+                        <li>Data: {{page.year}}</li>
+
+                      </ul>
+                    </div>
+                  </div>
 
                 <!-- {% if page.engine %}
                 <table>

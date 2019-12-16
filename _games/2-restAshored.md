@@ -8,23 +8,21 @@ category: game
 tags:
     - C++
     - Speech-to-Text
-duration: '1' #4 weeks
+duration: '4 weeks' #4 weeks
 engine: 'Unreal Engine 4'
 languages: C++
 roles: 'Programmer'
+teamSize: '12 (3 programmers)'
+genre: 'Management Survival'
+year: '2018'
 github: 'https://github.com/LeafMountain/RestAshored'
+trailer: 'https://www.youtube.com/embed/4HDeKBsptXE?autoplay=1&mute=1'
 ---
 <br/>
 <center>
-<i> A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again. </i>
+A group of teenagers are stranded on an island and have no idea how to survive. Its your job to try and guide these defiant people and help them survive until they find a way to get home again.
 </center>
 
-<br>
-
-<center>
-<iframe class="video" src="https://www.youtube.com/embed/4HDeKBsptXE?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<i> One of the developers playing the game. </i>
-</center>
 
 ## The Parsing System
 My main focus during this project was to create the system that translates text into commands the designers can use. We used an external "speech to text"-plugin called Sphinx. The output from Sphinx were the input used in the parsing system. The system tries to find out if the words are a "Name", "Action" or "Object".
