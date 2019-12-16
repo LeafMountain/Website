@@ -12,7 +12,7 @@
 }
 
 .game #content {
-    width: 10cm;
+    width: 20cm;
     height: 100%;
     color: var(--text-color);
     /* padding: 50px; */
@@ -159,14 +159,16 @@ input[type='checkbox'] {
 }
 
 .game #horizontalGrid2 {
-    /* width: 100%; */
+    width: 100%;
     display: grid;
-    /* grid-template-areas: 1fr 1fr; */
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin: auto;
-    grid-gap: .5cm;
+    grid-gap: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    text-align: justify;
+    padding: 3rem 0rem;
+
 }
 
 .game #horizontalGrid3 {
@@ -174,6 +176,23 @@ input[type='checkbox'] {
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     grid-gap: .5cm;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.game #horizontalGrid2 h1 {
+    /* align-self: flex-start; */
+    font-size: 2rem;
+    text-align: left;
+    padding: 0;
+}
+
+.game #horizontalGrid2 p {
+    align-self: center;
+    padding: 0;
+}
+
+.game ul {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -199,6 +218,7 @@ input[type='checkbox'] {
     border-radius: .2rem;
     object-fit: cover;
     object-position: center;
+    /* height: 1cm; */
 }
 
 .game #horizontalGrid3 img {
@@ -207,6 +227,11 @@ input[type='checkbox'] {
     height: 15rem;
     object-fit: cover;
     object-position: center;
+}
+
+.game li {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
 }
 
 /* .game code{

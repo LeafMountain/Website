@@ -13,6 +13,7 @@ engine: Unity3D
 languages: C#
 roles: 'Tech Lead / Lead Programmer'
 github: 'https://github.com/LeafMountain/TheGoodFew'
+trailer: 'https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1'
 ---
 
 The Good Few is a colorful turn-based role-playing game sprinkled with city-building elements and resource management.
@@ -22,33 +23,63 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 The idea featured a class and sub-class-based leveling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 
 <br>
-<center>
-<iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br>
-<i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i>
-</center>
+<!-- <center> -->
 
-## Turn System
+<div id="horizontalGrid2">
+  <iframe class="video" src="https://www.youtube.com/embed/674sdlZJsLI?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div>
+    <ul>
+      <li>Duration: 2 months</li>
+      <li>Engine: Unity</li>
+      
+    </ul>
+  </div>
+</div>
 
-## Skills System
+<!-- <br> -->
 
-![Skillbar]({{site.baseurl}}/img/TheGoodFew/skillbar.png)
+
+<!-- <i> This game was sent to Swedish Game Awards. It did not get nominated but we are proud see our game next to other great contributions. </i> -->
+<!-- </center> -->
+
+<!-- ## Turn System -->
+
+<!-- ## Skills System -->
+
+<!-- ![Skillbar]({{site.baseurl}}/img/TheGoodFew/skillbar.png) -->
 
 <div id="horizontalGrid2">
   <img src="{{site.baseurl}}/img/TheGoodFew/skillAsset.png">
-  <p>
-    Using scriptable assets
-  </p>
+  <div>
+    <h1>
+      Skill Creation
+    </h1>
+    <p>
+      <ul>
+        <li>One place for all the information</li>
+        <li>Extendable</li>
+        <li>Drag and Drop to implement</li>
+      </ul>
+      <br>
+      I created a container for the data related to the skill. This contains everything from the name and a description, to the icon and sound effects. When more information was needed by the systems (for example the range of a skill) it was easy to extend the container. The main way to implement this asset in the game was to drag and drop the asset into lists of skills.
+    </p>
+  </div>
 </div>
 
 <div id="horizontalGrid2">
   <img src="{{site.baseurl}}/img/TheGoodFew/skillInGame.png">
-  <p>
-    Straight forward to set the values that's used in the UI and when using the skill
-  </p>
+  <div>
+    <h1>
+      Using the skills
+    </h1>
+    <ul>
+      <li>Convenient access to information with the skill assests.</li>
+    </ul>
+    <p>
+      To use the informaton about the skill I just hade to read from the asset. All the information was gathered in one place.
+    </p>
+  </div>
 </div>
-
-## Level Tools and Grid
 
 <div id="horizontalGrid2">
   <video autoplay muted loop="loop" src="{{site.baseurl}}/img/TheGoodFew/placementGrid.mp4" type="video/mp4" width="100%" height="auto">
@@ -56,9 +87,17 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 
     Your browser does not support the video tag.
   </video>
-  <p>
-    To design levels I added a grid that showed the walkable tiles. If an area were supposed to be blocked we used a components that made those cells unwalkable.
-  </p>
+  <div>
+    <h1>
+      Level Design Grid
+    </h1>
+    <ul>
+      <li>Visualize the level in realtime</li>
+    </ul>
+    <p>
+      To design levels I added a grid that showed the walkable tiles. If an area were supposed to be blocked we used a components that made those cells unwalkable.
+    </p>
+  </div>
 </div>
 
 <div id="horizontalGrid2">
@@ -67,17 +106,32 @@ The idea featured a class and sub-class-based leveling system, an upgradeable pl
 
   Your browser does not support the video tag.
   </video>
-  <p>
-    To show the interactable cells I created a simple texture and generated a mesh. The mesh changes size depending on the distance the character can reach with different abilities or walk distance. I adjust the vertices in the y-axis to not clip the ground. To differentiate between friendly units, enemy units and empty tiles I generate submeshes and apply a different color to the material.
-  </p>
+  <div>
+    <h1>
+      Interaction Grid
+    </h1>
+    <ul>
+      <li>Procedural Mesh</li>
+      <li>Grid follows terrain</li>
+      <li>Analyzed the surroundings</li>
+    </ul>
+    <p>
+      To show the interactable cells I created a simple texture and generated a mesh. The mesh changes size depending on the distance the character can reach with different abilities or walk distance. I adjust the vertices in the y-axis to not clip the ground. To differentiate between friendly units, enemy units and empty tiles I generate submeshes and apply a different color to the material.
+    </p>
+  </div>
 </div>
 
-## UI
-* Separated the "UI component" and the system that updated it to make it easy to set values.
+<!-- ## UI -->
 
 <div id="horizontalGrid2">
   <p>Image of something</p>
-  <p>Hello</p>
+  <div>
+    <h1>Small UI Components</h1>
+    <ul>
+      <li>Separated the "UI component" and the system that updated it to make it easy to set values</li>
+    </ul>
+    <p>I separated the component that updated the visual UI with the logic that sends the information. This did create a bunch of components but also separated the code into smaller classes.</p>
+  </div>
 </div>
 
 
