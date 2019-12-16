@@ -21,6 +21,7 @@ layout: default
                     <a class="button" href="{{page.github}}">GitHub</a>
                 {% endif %}
 
+{% if page.engine %}
                 <div id="horizontalGrid2">
                     <iframe class="video" src="{{page.trailer}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <div>
@@ -36,7 +37,7 @@ layout: default
                       </ul>
                     </div>
                   </div>
-
+{% endif %}
                 <!-- {% if page.engine %}
                 <table>
                     <tr>
