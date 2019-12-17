@@ -76,10 +76,11 @@
 }
 
 /* Collapsible */
-/* .wrap-collabsible {
-    margin-bottom: 1.2rem 0;
-    padding-bottom: 1rem;
-} */
+.wrap-collabsible {
+    /* margin-bottom: 1.2rem 0; */
+    /* padding-bottom: 1rem; */
+    grid-column: 1 / span 2;
+}
   
 input[type='checkbox'] {
     display: none;
@@ -99,8 +100,8 @@ input[type='checkbox'] {
   
     padding: 0.5rem;
   
-    color: var(--glass-color-dark);
-    background: var(--glass-color);
+    color: var(--glass-color);
+    background: var(--glass-color-dark);
   
     cursor: pointer;
   
@@ -161,7 +162,6 @@ input[type='checkbox'] {
 
 .game pre {
     white-space: pre-wrap;
-    /* color: initial; */
 }
 
 .game #horizontalGrid2 {
@@ -187,7 +187,6 @@ input[type='checkbox'] {
 }
 
 .game #horizontalGrid2 h1 {
-    /* align-self: flex-start; */
     font-size: 2rem;
     text-align: left;
     padding: 0;
@@ -210,13 +209,11 @@ input[type='checkbox'] {
     overflow: hidden;
     object-fit: cover;
     object-position: center;
-    /* height: 100%; */
 }
 
 .game .video {
     width: 100%;
     height: 100%;
-    /* margin: auto; */
     border-radius: .2rem;
     overflow: hidden;
     object-fit: cover;
@@ -227,19 +224,12 @@ input[type='checkbox'] {
     height: 15cm !important;
 }
 
-/* .game iframe {
-    max-width: 100%;
-    margin: auto;
-    border-radius: .2rem;
-    overflow: hidden;
-} */
-
 .game #horizontalGrid2 img {
     width: 100%;
     border-radius: .2rem;
     object-fit: cover;
     object-position: center;
-    /* height: 1cm; */
+    height: 100%;
 }
 
 .game #horizontalGrid3 img {
@@ -252,19 +242,7 @@ input[type='checkbox'] {
 
 .game li {
     font-size: 1.2rem;
-    /* font-weight: bold; */
 }
-
-/* .game code{
-    display: block;
-    overflow: hidden;
-    height: 1cm;
-    background: red;
-}
-
-.game code:active {
-    height: 10rem;
-} */
 
 @media (max-width: 1081px) {
     .game #content {
