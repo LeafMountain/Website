@@ -27,7 +27,6 @@ This has been something I've been interested in for a while and decided would be
 <br>
 <a href="https://github.com/leafmountain/ProceduralCity/tree/master/Assets" target="_blank" class="button">View on Github</a>
 <iframe class="video gamedemo" src="https://leafmountain.github.io/ProceduralCity/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px"></iframe><br/>
-<i>This is a small demo of the current AI in the game.</i>
 </center>
 
 * Starts with every tile having the possibility to be every tile.
