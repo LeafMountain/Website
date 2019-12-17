@@ -221,7 +221,10 @@ input[type='checkbox'] {
 }
 
 .gamedemo {
-    height: 15cm !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 800px !important;
+    /* zoom: 1; -moz-transform: scale(1); -moz-transform-origin: 0 0; */
 }
 
 .game #horizontalGrid2 img {

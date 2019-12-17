@@ -1,6 +1,6 @@
 ---
 layout: game
-title: 'Mini Projects'
+title: 'Passion Projects'
 meta: 'This is a collection of small scale projects or features extracted from bigger projects.
 
 <br>
@@ -17,7 +17,7 @@ tags:
     - AI
 # github: 'https://github.com/LeafMountain/ArcaneNomads'
 ---
-## Structure Generator (try clicking)
+## Structure Generator
 <a id="button" href="https://github.com/LeafMountain/ProceduralCity">
     View on GitHub
 </a>
@@ -35,7 +35,7 @@ This has been something I've been interested in for a while and decided would be
 * Tells neighbor slots around it that a tile has been picked.
 
 
-## Interactive Boid AI (try clicking)
+## Interactive Boid AI
 <a id="button" href="https://github.com/LeafMountain/AI-Toy">
     View on GitHub
 </a>
